@@ -4,7 +4,7 @@
 </p>
 
 ## Projects
-    - Hackathon 1: [ACUITY](https://github.com/sandramsc/Hackathons_2021-to-2023/tree/main/ACUITY)
+    - [ACUITY](https://github.com/sandramsc/Hackathons_2021-to-2023/tree/main/ACUITY)
     - Hackathon 2: [CultiVate](https://github.com/sandramsc/Hackathons_2021-to-2023/tree/main/CultiVate)
     - Hackathon 3: [HyperStream](https://github.com/sandramsc/Hackathons_2021-to-2023/tree/main/HyperStream)
     - Hackathon 4: [TVA](https://github.com/sandramsc/Hackathons_2021-to-2023/tree/main/TVA)
