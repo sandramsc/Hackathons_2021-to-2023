@@ -1,0 +1,155 @@
+[
+    {
+        "type": "constructor",
+        "payable": false,
+        "inputs": []
+    },
+    {
+        "type": "function",
+        "name": "getIDSBTinfo",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "inputs": [
+            {
+                "type": "address",
+                "name": "addr"
+            }
+        ],
+        "outputs": [
+            {
+                "type": "tuple",
+                "components": [
+                    {
+                        "type": "string",
+                        "name": "name"
+                    },
+                    {
+                        "type": "string",
+                        "name": "profession"
+                    },
+                    {
+                        "type": "string",
+                        "name": "email"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "getSbtCount",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "inputs": [
+            {
+                "type": "address",
+                "name": "addr"
+            }
+        ],
+        "outputs": [
+            {
+                "type": "uint256"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "getTokenURI",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "inputs": [
+            {
+                "type": "address",
+                "name": "addr"
+            },
+            {
+                "type": "uint256",
+                "name": "i"
+            }
+        ],
+        "outputs": [
+            {
+                "type": "string",
+                "name": "uri"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "mintID",
+        "constant": false,
+        "payable": false,
+        "inputs": [
+            {
+                "type": "string",
+                "name": "uri"
+            },
+            {
+                "type": "string",
+                "name": "_name"
+            },
+            {
+                "type": "string",
+                "name": "_profession"
+            },
+            {
+                "type": "string",
+                "name": "_email"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "mintPaper",
+        "constant": false,
+        "payable": false,
+        "inputs": [
+            {
+                "type": "string",
+                "name": "uri"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "sbtType",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "inputs": [
+            {
+                "type": "address"
+            }
+        ],
+        "outputs": [
+            {
+                "type": "uint8"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "tokenIds",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "inputs": [
+            {
+                "type": "address"
+            },
+            {
+                "type": "uint256"
+            }
+        ],
+        "outputs": [
+            {
+                "type": "uint256"
+            }
+        ]
+    }
+]
