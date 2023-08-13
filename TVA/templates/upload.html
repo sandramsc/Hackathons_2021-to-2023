@@ -1,0 +1,128 @@
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.7.1/min/dropzone.min.css">
+    <script src="https://kit.fontawesome.com/4e821991dc.js" crossorigin="anonymous"></script>
+    <title>File Upload</title>
+</head>
+<style>
+    body,
+    .in,
+    .btn {
+        font-size: 14px;
+        font-family: arial, sans-serif;
+        color: #202124;
+        border-bottom: none;
+        background: url('./templates/background.jpg');
+    }
+
+    .container-1 {
+        font-weight: 400;
+        text-align: left;
+        padding: 40px 35px 5px 495px;
+        padding-bottom: 8px;
+        background-color: #e7eab5bb;
+        margin-top: 45px;
+        margin-left: 5px;
+        margin-right: 5px;
+        display: block;
+    }
+
+    h1 {
+        padding: 20px 5px 5px 214px;
+    }
+
+    button:hover {
+        border-bottom: none;
+        background: #C77575;
+        box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    }
+
+    .in {
+        border-radius: 24px;
+        width: 590px;
+        height: 44px;
+        margin-bottom: 25px;
+        border: 0.8px solid #dfe1e5;
+        box-shadow: none;
+        background: #fff;
+    }
+
+    .dropzone {
+        width: 600px;
+    }
+
+    .btn {
+        padding: 0 16px;
+        background-color: #FF6B6B;
+        border-radius: 5px 5px 5px 5px;
+        height: 40px;
+        margin-left: 240px;
+        border: 0.8px solid #dfe1e5;
+        cursor: pointer;
+        line-height: 27px;
+        min-width: 54px;
+        text-transform: none;
+        text-indent: 0px;
+        text-shadow: none;
+        display: inline-block;
+        letter-spacing: normal;
+        word-spacing: normal;
+    }
+
+    .btn:hover {}
+
+    input[type="submit"i] {
+        appearance: auto;
+        user-select: none;
+        white-space: pre;
+        align-items: flex-start;
+    }
+
+    input[type="submit"i]:hover {
+        box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+        background-color: #f8f9fa;
+        border: 1px solid #dadce0;
+        color: #202124;
+    }
+
+    .enter {
+        position: relative;
+    }
+
+    .enter input {
+        text-indent: 40px;
+    }
+
+    .enter .fa-pen {
+        position: absolute;
+        top: 12px;
+        left: 15px;
+        font-size: 15px;
+        margin-top: 3px;
+        color: #9aa0a6;
+        height: 20px;
+        width: 20px;
+    }
+</style>
+
+<body>
+    <div class="container-1">
+        <h1>File Upload</h1>
+        <form action="{{ url_for('upload_files') }}" class="dropzone">
+        </form>
+        <div class="container-2">
+            <form action="/home">
+                <div class="enter">
+                    <span class="fa fa-pen"></span>
+                    <input type="text" class="in" name="content_col" placeholder="  Enter Content Coloumn Name...">
+                </div>
+                <button class="btn" type="submit">Submit</button>
+            </form>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.7.1/min/dropzone.min.js"></script>
+    </div>
+</body>
+
+</html>

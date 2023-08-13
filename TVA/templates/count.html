@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.7.1/min/dropzone.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count</title>
+</head>
+
+<style>
+    .container {
+        font-weight: 400;
+        text-align: left;
+        padding-bottom: 8px;
+        background-color: #e7eab5bb;
+        margin-top: 45px;
+        margin-left: 15px;
+        margin-right: 5px;
+        display: grid;
+        grid-column-gap: 2px;
+        grid-row-gap: 2px;
+        grid-template-columns: 220px 220px 220px;
+    }
+
+    p {
+        background-color: #d8c4c4;
+        margin-left: 55px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <p>Number of Positive Reviews : {{data['pos']}}</p>
+        <p>Number of Negative Reviews : {{data['neu']}}</p>
+        <p>Number of Neutral Reviews : {{data['neg']}}</p>
+    </div>
+</body>
+
+</html>
