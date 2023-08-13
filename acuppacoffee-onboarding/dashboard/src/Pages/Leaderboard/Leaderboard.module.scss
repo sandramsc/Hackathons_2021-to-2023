@@ -1,0 +1,102 @@
+
+
+.currentLeaderboard{
+    position:absolute;
+    top:5%;
+    left: 30%;
+    bottom: 0;
+    width: 75w;
+
+}
+
+
+
+
+.personImages{
+    background-color: #F89C09;
+    margin: 5rem;
+    padding: 3rem;
+    border-radius: 10px;
+    width: 90%;
+    display: flex;
+    box-shadow: 5px 5px 15px #888888;
+    justify-content: space-between;
+}
+
+.personImg{
+    height: 90px;
+}
+
+.samantha2{
+    border-radius:50%;
+    border: 7px solid #fff;
+    height: 90px;
+    width: auto;
+}
+.leaderName{
+    padding:0.5rem;
+    margin:0.5rem;
+    font-weight: 200;
+    color:white;
+    font-size: 3rem;
+}
+
+.leaderScore{
+    padding:0.5rem;
+    margin:0.5rem;
+    font-weight: 400;
+    color:white;
+    font-size: 4rem;
+}
+
+.leaderSection{
+    direction: flex;
+    flex-direction: row;
+}
+
+.scoreWrapper{
+    float:right;
+    margin-right: 15%;
+}
+
+.Title{
+    font-weight: 200;
+    color:grey;
+    font-size: 3.5rem;
+
+}
+
+.userScoreTitle{
+    font-weight: 200;
+    color:grey;
+    font-size: 3.5rem;
+
+
+}
+
+.button {
+    cursor: pointer;
+    background-color: #e1ab54;
+    border-radius: 8px;
+    color: black;
+    font-weight: 300;
+    line-height: 5px;
+    letter-spacing: 1.5px;
+    padding: 1rem 1rem;
+    margin-top: 1.5rem;
+    width: 20%;
+    height: 20%;
+    justify-content: center;
+    float: right;
+  }
+
+
+  coffeeBtn{
+    cursor: pointer;
+    background-color: #e1ab54;
+
+  }
+  .coffee{
+    border-radius: 50%;
+    height: 60px;
+  }

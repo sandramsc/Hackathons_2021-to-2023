@@ -1,0 +1,91 @@
+
+
+   
+.sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 25vw;
+    height: 125vh;
+    background-color: #F2430F;
+    color: white;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sidebarContent {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .sidebarTitle{
+    font-size: 4rem;
+    margin-top: -2rem;
+    margin-left: -1rem;
+    padding-bottom: 1rem;
+   
+}
+
+  .profileDetails {
+    margin-top: 1rem;
+  }
+  
+  .profileImageDiv {
+    position: relative;
+  }
+
+  .samanthaImg{
+      border-radius: 50%;
+  }
+
+  .userName {
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 30px;
+  }
+  
+ 
+
+  h2{
+      padding: 1rem;
+      color: black;
+   
+  }
+
+  .userEmail {
+    margin-top: 1rem;
+    opacity: 0.6;
+  }
+  
+  .sidebarNav {
+    margin-top: -8rem;
+    margin-bottom: 4rem;
+  }
+  
+  .sidebarNavItem {
+    margin: 2rem 0;
+ 
+  }
+  
+  .sidebarNavLink {
+    text-decoration: none;
+    outline: none;
+    color: white;
+    opacity: 0.5;
+    font-size: 25px;
+    font-weight: 500;
+  
+    &Active {
+      @extend .sidebarNavLink;
+      opacity: 1;
+    }
+  }
+  
+  
+  
