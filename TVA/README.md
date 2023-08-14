@@ -27,11 +27,10 @@ View the Demo on YouTube: https://youtu.be/KuDkj9dqLhc
 
 ## Screenshots
 
-![alt text](static/screenshots/image1.png "Title")
-![alt text](static/screenshots/image2.png "Title")
-![alt text](static/screenshots/image3.png "Title")
-![alt text](static/screenshots/image4.png "Title")
-
+![image4](https://github.com/sandramsc/Hackathons_2021-to-2023/assets/19821445/a6e58489-f4fa-44b4-8668-bf1971d04794)
+![image3](https://github.com/sandramsc/Hackathons_2021-to-2023/assets/19821445/3199a697-8020-444a-8ede-cff24529f0a5)
+![image1](https://github.com/sandramsc/Hackathons_2021-to-2023/assets/19821445/f9f9f274-d692-4168-bbef-d94faf40be63)
+![image2](https://github.com/sandramsc/Hackathons_2021-to-2023/assets/19821445/412a7bd2-cd77-4145-bc64-c24072ad96ad)
 
 ## Technology Stack
 
