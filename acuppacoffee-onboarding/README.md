@@ -7,7 +7,7 @@
 
 ## Application Description
 
-a web based tool that enables users from the same corporate organization to interact through games and purchase a drink (i.e coffee) as part of the on-bording process to get to know each other better
+a web based tool that enables users from the same corporate organization to interact through games and purchase a drink (i.e coffee) as part of the on-boarding process to get to know each other better
 
 ## Table of Contents
 
@@ -32,7 +32,7 @@ a web based tool that enables users from the same corporate organization to inte
 
 A Short Video Detailing the Features Implemented in this Application
 
-View the Demo on YouTube: https://youtu.be/ThMiwnIkHTo 
+[View the Demo on YouTube](https://youtu.be/lcdEeKLYPSc)
 
 View the game concept in Figma:
 https://www.figma.com/proto/XocpCeCSU686PV6aFkH1Ey/All-Aboard?node-id=2%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A2
