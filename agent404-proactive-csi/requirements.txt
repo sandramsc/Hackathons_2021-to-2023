@@ -1,0 +1,31 @@
+# ProActive CSI - Agent 404
+# Python Dependencies
+
+# IBM Watson Services
+ibm-watson>=7.0.0
+ibm-cloud-sdk-core>=3.16.0
+ibm-watsonx-ai>=0.2.0
+ibmcloudant>=0.7.0
+
+# Web Framework
+streamlit>=1.28.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# HTTP & API
+requests>=2.31.0
+urllib3>=2.0.0
+
+# Configuration
+python-dotenv>=1.0.0
+pyyaml>=6.0
+
+# Testing
+pytest>=7.4.0
+pytest-mock>=3.11.0
+
+# Utilities
+python-dateutil>=2.8.2
+

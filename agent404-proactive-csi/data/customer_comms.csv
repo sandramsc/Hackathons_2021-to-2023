@@ -1,0 +1,488 @@
+customer_id,date,channel,message,sentiment
+C-001,2025-02-06,email,"We are seriously reconsidering our renewal due to recent service issues and delays.",very_negative
+C-003,2025-02-07,email,"Your delivery delays are significantly impacting our project timeline and team productivity.",negative
+C-004,2025-02-08,slack,"All good here! Great performance this month. Team is very happy with the system.",positive
+C-005,2025-02-11,email,"Experiencing repeated issues. Need immediate resolution or we'll explore alternatives.",very_negative
+C-002,2025-02-09,slack,"Quick question about the new features in the upcoming release.",neutral
+C-007,2025-02-03,email,"This is unacceptable. Third outage this month. Our customers are complaining.",very_negative
+C-006,2025-02-10,slack,"Thanks for the quick support response yesterday! Much appreciated.",positive
+C-011,2025-02-05,email,"The vendor issues are cascading to our operations. We need compensation discussion.",negative
+C-008,2025-02-12,email,"Interested in expanding our usage. Can we schedule a call?",positive
+C-016,2025-02-09,slack,"Another delay notification? This is becoming a pattern we cannot ignore.",negative
+C-010,2025-02-14,slack,"System is running smoothly. No complaints from our end.",positive
+C-021,2025-02-04,email,"Vendor problems are directly affecting our SLAs to our customers. Critical situation.",very_negative
+C-013,2025-02-15,email,"Can you provide a demo of the advanced analytics module?",neutral
+C-026,2025-02-13,slack,"Supply chain issues on your end are hurting us. Need immediate action.",negative
+C-012,2025-02-16,email,"Very satisfied with the platform capabilities and support team.",positive
+C-032,2025-02-06,email,"Multiple vendor delays this quarter. This impacts our renewal decision.",negative
+C-014,2025-02-17,slack,"Quick clarification on the API rate limits please.",neutral
+C-036,2025-02-17,email,"Dashboard performance is degrading. Affecting daily operations.",negative
+C-015,2025-02-18,email,"Excellent service as always. Team loves the new interface.",positive
+C-046,2025-02-19,slack,"Another component shortage? How many more delays should we expect?",very_negative
+C-017,2025-02-20,email,"Would like to discuss volume pricing for next year.",neutral
+C-056,2025-02-21,slack,"Quality issues in recent deliveries. QA team has concerns.",negative
+C-019,2025-02-22,email,"Platform stability has been excellent. Kudos to the team.",positive
+C-067,2025-02-23,email,"Multiple vendors failing simultaneously. We're evaluating alternatives now.",very_negative
+C-018,2025-02-24,slack,"Quick feature request for the roadmap consideration.",neutral
+C-076,2025-02-25,email,"Continuous supply disruptions are forcing us to reconsider partnership.",negative
+C-020,2025-02-26,email,"Great collaboration on the integration project. Moving forward smoothly.",positive
+C-096,2025-01-15,slack,"Another quality issue reported by operations team.",negative
+C-022,2025-01-16,email,"Can we schedule quarterly business review?",neutral
+C-102,2025-01-17,email,"Frustrated with ongoing vendor coordination problems.",negative
+C-023,2025-01-18,slack,"System uptime has been impressive this quarter!",positive
+C-121,2025-01-19,email,"Supply issues are now critical. Need executive escalation.",very_negative
+C-024,2025-01-20,email,"Interested in the enterprise tier features.",neutral
+C-137,2025-01-21,slack,"Performance degradation affecting user experience.",negative
+C-025,2025-01-22,email,"Thanks for addressing our concerns promptly.",positive
+C-145,2025-01-23,email,"Multiple failures in vendor ecosystem. Considering contract termination.",very_negative
+C-027,2025-01-24,slack,"Documentation improvements are very helpful.",positive
+C-166,2025-01-25,email,"Quality control issues persist. Need action plan immediately.",negative
+C-028,2025-01-26,email,"Platform has exceeded our expectations. Well done!",positive
+C-194,2025-01-27,slack,"Vendor reliability problems cascading to our clients.",negative
+C-029,2025-01-28,email,"Would like to explore additional modules for Q2.",neutral
+C-215,2025-01-29,email,"This vendor situation is untenable. Formal complaint being filed.",very_negative
+C-030,2025-01-30,slack,"Smooth sailing this month. No issues to report.",positive
+C-236,2025-01-31,email,"Component defects impacting our production schedule significantly.",negative
+C-031,2025-02-01,email,"Can you share best practices guide?",neutral
+C-264,2025-02-02,slack,"Multiple vendor failures. Board asking serious questions.",very_negative
+C-033,2025-02-03,email,"Really appreciate the proactive monitoring and alerts.",positive
+C-277,2025-02-04,email,"Quality and delivery issues compound our operational challenges.",negative
+C-034,2025-02-05,slack,"Quick question about user role permissions.",neutral
+C-285,2025-02-06,email,"Vendor ecosystem collapse threatening our business continuity.",very_negative
+C-035,2025-02-07,email,"Platform reliability has been rock solid. Thank you!",positive
+C-306,2025-02-08,slack,"Another delivery miss. Pattern is deeply concerning.",negative
+C-037,2025-02-09,email,"Billing inquiry regarding annual commitment.",neutral
+C-334,2025-02-10,email,"Systemic vendor problems requiring immediate board-level attention.",very_negative
+C-038,2025-02-11,slack,"Impressed with the new dashboard features.",positive
+C-355,2025-02-12,email,"Multiple quality failures detected in recent shipments.",negative
+C-039,2025-02-13,email,"Partnership has been mutually beneficial. Looking forward to renewal.",positive
+C-376,2025-02-14,slack,"Vendor delays accumulating. CFO requesting contingency planning.",very_negative
+C-040,2025-02-15,email,"Feature request for enhanced reporting capabilities.",neutral
+C-397,2025-02-16,email,"Component defects and delays creating perfect storm.",negative
+C-041,2025-02-17,slack,"Recent issues make renewal conversation difficult.",negative
+C-404,2025-02-18,email,"Supply chain chaos threatening our Q1 targets.",very_negative
+C-042,2025-02-19,email,"Excellent support experience. Problem resolved quickly.",positive
+C-417,2025-02-20,slack,"Multiple critical vendor failures. Emergency meeting requested.",very_negative
+C-043,2025-02-21,email,"Interested in training session for new team members.",neutral
+C-425,2025-02-22,email,"Vendor reliability crisis forcing strategic review.",very_negative
+C-044,2025-02-23,slack,"Platform performance exceptional this quarter.",positive
+C-446,2025-02-24,email,"Repeated vendor problems unsustainable. Need solutions now.",very_negative
+C-045,2025-02-25,email,"Can we discuss enterprise pricing options?",neutral
+C-453,2025-02-26,slack,"Vendor coordination failures causing operational nightmares.",very_negative
+C-047,2025-01-10,email,"System uptime and reliability have been outstanding.",positive
+C-467,2025-01-11,email,"Multiple vendor meltdowns simultaneously. Disaster scenario.",very_negative
+C-048,2025-01-12,slack,"Quick question about API documentation.",neutral
+C-474,2025-01-13,email,"Supply failures compounding. Need executive intervention.",very_negative
+C-049,2025-01-14,email,"Great collaboration with your team on integration.",positive
+C-487,2025-01-15,slack,"Catastrophic vendor failures across the board. Critical escalation.",very_negative
+C-050,2025-01-16,email,"Training materials were comprehensive and helpful.",positive
+C-495,2025-01-17,email,"Pattern of vendor problems threatening partnership viability.",very_negative
+C-051,2025-01-18,slack,"Feature works exactly as needed. Well designed!",positive
+C-052,2025-01-19,email,"Renewal discussions going well. Positive outlook.",positive
+C-053,2025-01-20,slack,"Quick clarification on data retention policies.",neutral
+C-054,2025-01-21,email,"Platform has been reliable and performant.",positive
+C-055,2025-01-22,slack,"Can you share the release roadmap?",neutral
+C-057,2025-01-23,email,"Excellent customer service. Issues resolved promptly.",positive
+C-058,2025-01-24,slack,"Quick question about backup procedures.",neutral
+C-059,2025-01-25,email,"System performance has been consistently excellent.",positive
+C-060,2025-01-26,slack,"Interested in advanced security features.",neutral
+C-061,2025-01-27,email,"Dashboard improvements are much appreciated.",positive
+C-062,2025-01-28,slack,"Can we schedule a technical deep dive?",neutral
+C-063,2025-01-29,email,"Platform stability impressive during peak loads.",positive
+C-064,2025-01-30,slack,"Need clarification on compliance certifications.",neutral
+C-065,2025-01-31,email,"Support team response times excellent.",positive
+C-066,2025-02-01,slack,"Integration working flawlessly. Great job!",positive
+C-068,2025-02-02,email,"Can you provide use case examples?",neutral
+C-069,2025-02-03,slack,"System reliability has exceeded expectations.",positive
+C-070,2025-02-04,email,"Would like to explore enterprise tier.",neutral
+C-071,2025-02-05,slack,"Performance metrics looking great this month.",positive
+C-072,2025-02-06,email,"Quick question about user licensing.",neutral
+C-073,2025-02-07,slack,"Platform uptime has been remarkable.",positive
+C-074,2025-02-08,email,"Can we discuss custom integration options?",neutral
+C-075,2025-02-09,slack,"Team very satisfied with platform capabilities.",positive
+C-077,2025-02-10,email,"Interested in API expansion possibilities.",neutral
+C-078,2025-02-11,slack,"Excellent platform performance throughout.",positive
+C-079,2025-02-12,email,"Need information on data migration support.",neutral
+C-080,2025-02-13,slack,"System has been rock solid. Impressed!",positive
+C-081,2025-02-14,email,"Can you share security audit results?",neutral
+C-082,2025-02-15,slack,"Platform exceeding our requirements.",positive
+C-083,2025-02-16,email,"Interested in quarterly check-in call.",neutral
+C-084,2025-02-17,slack,"Reliability has been outstanding.",positive
+C-085,2025-02-18,email,"Quick question about pricing tiers.",neutral
+C-086,2025-02-19,slack,"Team loves the intuitive interface.",positive
+C-087,2025-02-20,email,"Can we schedule technical training?",neutral
+C-088,2025-02-21,slack,"Performance consistently excellent.",positive
+C-089,2025-02-22,email,"Need clarification on contract terms.",neutral
+C-090,2025-02-23,slack,"Platform stability impressive.",positive
+C-091,2025-02-24,email,"Interested in additional modules.",neutral
+C-092,2025-02-25,slack,"System uptime has been perfect.",positive
+C-093,2025-02-26,email,"Can you provide ROI case studies?",neutral
+C-094,2025-01-05,slack,"Platform performance exceeds benchmarks.",positive
+C-095,2025-01-06,email,"Quick question about scalability.",neutral
+C-098,2025-01-07,slack,"Excellent service and support.",positive
+C-099,2025-01-08,email,"Need info on compliance standards.",neutral
+C-100,2025-01-09,slack,"System reliability outstanding.",positive
+C-101,2025-01-10,email,"Can we discuss enterprise features?",neutral
+C-103,2025-01-11,slack,"Platform exceeding expectations.",positive
+C-104,2025-01-12,email,"Interested in advanced analytics.",neutral
+C-105,2025-01-13,slack,"Uptime has been remarkable.",positive
+C-106,2025-01-14,email,"Quick question on integration APIs.",neutral
+C-107,2025-01-15,slack,"System performance excellent.",positive
+C-108,2025-01-16,email,"Can you share product roadmap?",neutral
+C-109,2025-01-17,slack,"Platform reliability impressive.",positive
+C-110,2025-01-18,email,"Need information on support tiers.",neutral
+C-111,2025-01-19,slack,"Team very satisfied overall.",positive
+C-112,2025-01-20,email,"Interested in custom workflows.",neutral
+C-113,2025-01-21,slack,"Performance consistently strong.",positive
+C-114,2025-01-22,email,"Quick question about licensing.",neutral
+C-115,2025-01-23,slack,"Platform stability excellent.",positive
+C-116,2025-01-24,email,"Can we schedule demo of new features?",neutral
+C-117,2025-01-25,slack,"System uptime perfect this quarter.",positive
+C-118,2025-01-26,email,"Need clarification on data policies.",neutral
+C-119,2025-01-27,slack,"Platform exceeding requirements.",positive
+C-120,2025-01-28,email,"Interested in expanded capabilities.",neutral
+C-122,2025-01-29,slack,"Excellent platform performance.",positive
+C-123,2025-01-30,email,"Quick question about API limits.",neutral
+C-124,2025-01-31,slack,"System reliability outstanding.",positive
+C-125,2025-02-01,email,"Can you provide best practices guide?",neutral
+C-126,2025-02-02,slack,"Platform performance excellent.",positive
+C-127,2025-02-03,email,"Need info on security features.",neutral
+C-128,2025-02-04,slack,"Team impressed with capabilities.",positive
+C-129,2025-02-05,email,"Interested in enterprise plan details.",neutral
+C-130,2025-02-06,slack,"System uptime has been perfect.",positive
+C-131,2025-02-07,email,"Quick question about integrations.",neutral
+C-132,2025-02-08,slack,"Platform reliability impressive.",positive
+C-133,2025-02-09,email,"Can we discuss volume pricing?",neutral
+C-134,2025-02-10,slack,"Performance exceeding expectations.",positive
+C-135,2025-02-11,email,"Need information on certifications.",neutral
+C-136,2025-02-12,slack,"System stability outstanding.",positive
+C-138,2025-02-13,email,"Interested in advanced features.",neutral
+C-139,2025-02-14,slack,"Platform performance excellent.",positive
+C-140,2025-02-15,email,"Quick question about support hours.",neutral
+C-141,2025-02-16,slack,"System uptime remarkable.",positive
+C-142,2025-02-17,email,"Can you share migration guide?",neutral
+C-143,2025-02-18,slack,"Platform exceeding standards.",positive
+C-144,2025-02-19,email,"Need clarification on billing.",neutral
+C-146,2025-02-20,slack,"Performance consistently strong.",positive
+C-147,2025-02-21,email,"Interested in training options.",neutral
+C-148,2025-02-22,slack,"System reliability excellent.",positive
+C-149,2025-02-23,email,"Quick question about APIs.",neutral
+C-150,2025-02-24,slack,"Platform performance outstanding.",positive
+C-151,2025-02-25,email,"Can we schedule business review?",neutral
+C-152,2025-02-26,slack,"Team very happy with system.",positive
+C-153,2025-01-01,email,"Need info on scalability options.",neutral
+C-154,2025-01-02,slack,"Platform uptime perfect.",positive
+C-155,2025-01-03,email,"Interested in custom solutions.",neutral
+C-156,2025-01-04,slack,"System performance excellent.",positive
+C-157,2025-01-05,email,"Quick question about pricing.",neutral
+C-158,2025-01-06,slack,"Platform stability impressive.",positive
+C-159,2025-01-07,email,"Can you provide documentation?",neutral
+C-160,2025-01-08,slack,"Performance exceeding targets.",positive
+C-161,2025-01-09,email,"Need information on features.",neutral
+C-162,2025-01-10,slack,"System reliability outstanding.",positive
+C-163,2025-01-11,email,"Interested in expansion options.",neutral
+C-164,2025-01-12,slack,"Platform uptime remarkable.",positive
+C-165,2025-01-13,email,"Quick question about contracts.",neutral
+C-167,2025-01-14,slack,"Performance consistently excellent.",positive
+C-168,2025-01-15,email,"Can we discuss use cases?",neutral
+C-169,2025-01-16,slack,"System stability outstanding.",positive
+C-170,2025-01-17,email,"Need clarification on terms.",neutral
+C-171,2025-01-18,slack,"Platform performance excellent.",positive
+C-172,2025-01-19,email,"Interested in advanced tools.",neutral
+C-173,2025-01-20,slack,"Team satisfied with platform.",positive
+C-174,2025-01-21,email,"Quick question about support.",neutral
+C-175,2025-01-22,slack,"System uptime perfect.",positive
+C-177,2025-01-23,email,"Can you share roadmap details?",neutral
+C-178,2025-01-24,slack,"Platform reliability excellent.",positive
+C-179,2025-01-25,email,"Need info on integrations.",neutral
+C-180,2025-01-26,slack,"Performance exceeding goals.",positive
+C-182,2025-01-27,email,"Interested in volume discounts.",neutral
+C-183,2025-01-28,slack,"System stability outstanding.",positive
+C-184,2025-01-29,email,"Quick question about features.",neutral
+C-185,2025-01-30,slack,"Platform uptime impressive.",positive
+C-186,2025-01-31,email,"Can we schedule call?",neutral
+C-187,2025-02-01,slack,"Performance consistently strong.",positive
+C-188,2025-02-02,email,"Need information on APIs.",neutral
+C-189,2025-02-03,slack,"System reliability excellent.",positive
+C-190,2025-02-04,email,"Interested in custom dev.",neutral
+C-191,2025-02-05,slack,"Platform performance outstanding.",positive
+C-192,2025-02-06,email,"Quick question about pricing.",neutral
+C-193,2025-02-07,slack,"Team impressed with system.",positive
+C-195,2025-02-08,email,"Can you provide case studies?",neutral
+C-196,2025-02-09,slack,"System uptime remarkable.",positive
+C-197,2025-02-10,email,"Need clarification on billing.",neutral
+C-198,2025-02-11,slack,"Platform stability excellent.",positive
+C-199,2025-02-12,email,"Interested in enterprise tier.",neutral
+C-200,2025-02-13,slack,"Performance exceeding targets.",positive
+C-201,2025-02-14,email,"Quick question about contracts.",neutral
+C-202,2025-02-15,slack,"System reliability outstanding.",positive
+C-203,2025-02-16,email,"Can we discuss options?",neutral
+C-204,2025-02-17,slack,"Platform uptime perfect.",positive
+C-205,2025-02-18,email,"Need info on features.",neutral
+C-206,2025-02-19,slack,"Performance consistently excellent.",positive
+C-207,2025-02-20,email,"Interested in training.",neutral
+C-208,2025-02-21,slack,"System stability impressive.",positive
+C-209,2025-02-22,email,"Quick question about support.",neutral
+C-210,2025-02-23,slack,"Platform performance outstanding.",positive
+C-211,2025-02-24,email,"Can you share documentation?",neutral
+C-212,2025-02-25,slack,"Team very satisfied.",positive
+C-213,2025-02-26,email,"Need information on APIs.",neutral
+C-214,2025-01-15,slack,"System uptime remarkable.",positive
+C-216,2025-01-16,email,"Interested in advanced features.",neutral
+C-217,2025-01-17,slack,"Platform reliability excellent.",positive
+C-218,2025-01-18,email,"Quick question about licensing.",neutral
+C-219,2025-01-19,slack,"Performance exceeding expectations.",positive
+C-220,2025-01-20,email,"Can we schedule demo?",neutral
+C-222,2025-01-21,slack,"System stability outstanding.",positive
+C-223,2025-01-22,email,"Need clarification on pricing.",neutral
+C-224,2025-01-23,slack,"Platform uptime perfect.",positive
+C-226,2025-01-24,email,"Interested in volume options.",neutral
+C-227,2025-01-25,slack,"Performance consistently strong.",positive
+C-229,2025-01-26,email,"Quick question about features.",neutral
+C-230,2025-01-27,slack,"System reliability excellent.",positive
+C-231,2025-01-28,email,"Can you provide roadmap?",neutral
+C-232,2025-01-29,slack,"Platform performance outstanding.",positive
+C-233,2025-01-30,email,"Need info on integrations.",neutral
+C-234,2025-01-31,slack,"Team impressed with capabilities.",positive
+C-235,2025-02-01,email,"Interested in custom solutions.",neutral
+C-237,2025-02-02,slack,"System uptime remarkable.",positive
+C-238,2025-02-03,email,"Quick question about support.",neutral
+C-239,2025-02-04,slack,"Platform stability excellent.",positive
+C-240,2025-02-05,email,"Can we discuss enterprise plan?",neutral
+C-241,2025-02-06,slack,"Performance exceeding goals.",positive
+C-242,2025-02-07,email,"Need information on APIs.",neutral
+C-243,2025-02-08,slack,"System reliability outstanding.",positive
+C-244,2025-02-09,email,"Interested in advanced tools.",neutral
+C-246,2025-02-10,slack,"Platform uptime perfect.",positive
+C-247,2025-02-11,email,"Quick question about contracts.",neutral
+C-248,2025-02-12,slack,"Performance consistently excellent.",positive
+C-249,2025-02-13,email,"Can you share best practices?",neutral
+C-250,2025-02-14,slack,"System stability impressive.",positive
+C-251,2025-02-15,email,"Need clarification on terms.",neutral
+C-252,2025-02-16,slack,"Platform performance outstanding.",positive
+C-254,2025-02-17,email,"Interested in training options.",neutral
+C-255,2025-02-18,slack,"Team very satisfied overall.",positive
+C-257,2025-02-19,email,"Quick question about pricing.",neutral
+C-258,2025-02-20,slack,"System uptime remarkable.",positive
+C-259,2025-02-21,email,"Can we schedule call?",neutral
+C-260,2025-02-22,slack,"Platform reliability excellent.",positive
+C-261,2025-02-23,email,"Need info on features.",neutral
+C-262,2025-02-24,slack,"Performance exceeding targets.",positive
+C-263,2025-02-25,email,"Interested in volume discounts.",neutral
+C-265,2025-02-26,slack,"System stability outstanding.",positive
+C-266,2025-01-10,email,"Quick question about APIs.",neutral
+C-268,2025-01-11,slack,"Platform uptime perfect.",positive
+C-269,2025-01-12,email,"Can you provide documentation?",neutral
+C-270,2025-01-13,slack,"Performance consistently strong.",positive
+C-271,2025-01-14,email,"Need information on integrations.",neutral
+C-272,2025-01-15,slack,"System reliability excellent.",positive
+C-273,2025-01-16,email,"Interested in custom dev.",neutral
+C-274,2025-01-17,slack,"Platform performance outstanding.",positive
+C-275,2025-01-18,email,"Quick question about support.",neutral
+C-276,2025-01-19,slack,"Team impressed with system.",positive
+C-278,2025-01-20,email,"Can we discuss options?",neutral
+C-279,2025-01-21,slack,"System uptime remarkable.",positive
+C-280,2025-01-22,email,"Need clarification on billing.",neutral
+C-281,2025-01-23,slack,"Platform stability excellent.",positive
+C-282,2025-01-24,email,"Interested in enterprise tier.",neutral
+C-283,2025-01-25,slack,"Performance exceeding expectations.",positive
+C-284,2025-01-26,email,"Quick question about contracts.",neutral
+C-286,2025-01-27,slack,"System reliability outstanding.",positive
+C-287,2025-01-28,email,"Can you share roadmap?",neutral
+C-288,2025-01-29,slack,"Platform uptime perfect.",positive
+C-289,2025-01-30,email,"Need info on features.",neutral
+C-290,2025-01-31,slack,"Performance consistently excellent.",positive
+C-291,2025-02-01,email,"Interested in advanced tools.",neutral
+C-292,2025-02-02,slack,"System stability impressive.",positive
+C-293,2025-02-03,email,"Quick question about pricing.",neutral
+C-294,2025-02-04,slack,"Platform performance outstanding.",positive
+C-295,2025-02-05,email,"Can we schedule demo?",neutral
+C-297,2025-02-06,slack,"Team very satisfied.",positive
+C-298,2025-02-07,email,"Need information on APIs.",neutral
+C-299,2025-02-08,slack,"System uptime remarkable.",positive
+C-300,2025-02-09,email,"Interested in volume options.",neutral
+C-301,2025-02-10,slack,"Platform reliability excellent.",positive
+C-302,2025-02-11,email,"Quick question about features.",neutral
+C-303,2025-02-12,slack,"Performance exceeding goals.",positive
+C-304,2025-02-13,email,"Can you provide case studies?",neutral
+C-305,2025-02-14,slack,"System stability outstanding.",positive
+C-307,2025-02-15,email,"Need clarification on terms.",neutral
+C-308,2025-02-16,slack,"Platform uptime perfect.",positive
+C-309,2025-02-17,email,"Interested in training.",neutral
+C-310,2025-02-18,slack,"Performance consistently strong.",positive
+C-311,2025-02-19,email,"Quick question about support.",neutral
+C-312,2025-02-20,slack,"System reliability excellent.",positive
+C-313,2025-02-21,email,"Can we discuss enterprise plan?",neutral
+C-314,2025-02-22,slack,"Platform performance outstanding.",positive
+C-315,2025-02-23,email,"Need info on integrations.",neutral
+C-316,2025-02-24,slack,"Team impressed with capabilities.",positive
+C-317,2025-02-25,email,"Interested in custom solutions.",neutral
+C-318,2025-02-26,slack,"System uptime remarkable.",positive
+C-319,2025-01-05,email,"Quick question about licensing.",neutral
+C-320,2025-01-06,slack,"Platform stability excellent.",positive
+C-321,2025-01-07,email,"Can you share documentation?",neutral
+C-322,2025-01-08,slack,"Performance exceeding targets.",positive
+C-323,2025-01-09,email,"Need information on features.",neutral
+C-324,2025-01-10,slack,"System reliability outstanding.",positive
+C-325,2025-01-11,email,"Interested in advanced features.",neutral
+C-326,2025-01-12,slack,"Platform uptime perfect.",positive
+C-327,2025-01-13,email,"Quick question about pricing.",neutral
+C-328,2025-01-14,slack,"Performance consistently excellent.",positive
+C-329,2025-01-15,email,"Can we schedule call?",neutral
+C-330,2025-01-16,slack,"System stability impressive.",positive
+C-331,2025-01-17,email,"Need clarification on billing.",neutral
+C-332,2025-01-18,slack,"Platform performance outstanding.",positive
+C-333,2025-01-19,email,"Interested in volume discounts.",neutral
+C-335,2025-01-20,slack,"Team very satisfied overall.",positive
+C-336,2025-01-21,email,"Quick question about APIs.",neutral
+C-337,2025-01-22,slack,"System uptime remarkable.",positive
+C-338,2025-01-23,email,"Can you provide roadmap?",neutral
+C-339,2025-01-24,slack,"Platform reliability excellent.",positive
+C-340,2025-01-25,email,"Need info on integrations.",neutral
+C-341,2025-01-26,slack,"Performance exceeding expectations.",positive
+C-342,2025-01-27,email,"Interested in custom dev.",neutral
+C-343,2025-01-28,slack,"System stability outstanding.",positive
+C-344,2025-01-29,email,"Quick question about support.",neutral
+C-345,2025-01-30,slack,"Platform uptime perfect.",positive
+C-346,2025-01-31,email,"Can we discuss options?",neutral
+C-347,2025-02-01,slack,"Performance consistently strong.",positive
+C-348,2025-02-02,email,"Need information on features.",neutral
+C-349,2025-02-03,slack,"System reliability excellent.",positive
+C-350,2025-02-04,email,"Interested in enterprise tier.",neutral
+C-351,2025-02-05,slack,"Platform performance outstanding.",positive
+C-352,2025-02-06,email,"Quick question about contracts.",neutral
+C-353,2025-02-07,slack,"Team impressed with system.",positive
+C-354,2025-02-08,email,"Can you share best practices?",neutral
+C-356,2025-02-09,slack,"System uptime remarkable.",positive
+C-357,2025-02-10,email,"Need clarification on terms.",neutral
+C-358,2025-02-11,slack,"Platform stability excellent.",positive
+C-359,2025-02-12,email,"Interested in training options.",neutral
+C-360,2025-02-13,slack,"Performance exceeding goals.",positive
+C-361,2025-02-14,email,"Quick question about pricing.",neutral
+C-362,2025-02-15,slack,"System reliability outstanding.",positive
+C-363,2025-02-16,email,"Can we schedule demo?",neutral
+C-364,2025-02-17,slack,"Platform uptime perfect.",positive
+C-365,2025-02-18,email,"Need info on APIs.",neutral
+C-366,2025-02-19,slack,"Performance consistently excellent.",positive
+C-367,2025-02-20,email,"Interested in volume options.",neutral
+C-368,2025-02-21,slack,"System stability impressive.",positive
+C-369,2025-02-22,email,"Quick question about features.",neutral
+C-370,2025-02-23,slack,"Platform performance outstanding.",positive
+C-371,2025-02-24,email,"Can you provide documentation?",neutral
+C-372,2025-02-25,slack,"Team very satisfied.",positive
+C-373,2025-02-26,email,"Need information on integrations.",neutral
+C-374,2025-01-01,slack,"System uptime remarkable.",positive
+C-375,2025-01-02,email,"Interested in custom solutions.",neutral
+C-377,2025-01-03,slack,"Platform reliability excellent.",positive
+C-378,2025-01-04,email,"Quick question about licensing.",neutral
+C-379,2025-01-05,slack,"Performance exceeding targets.",positive
+C-380,2025-01-06,email,"Can we discuss enterprise plan?",neutral
+C-381,2025-01-07,slack,"System stability outstanding.",positive
+C-382,2025-01-08,email,"Need clarification on billing.",neutral
+C-383,2025-01-09,slack,"Platform uptime perfect.",positive
+C-384,2025-01-10,email,"Interested in advanced tools.",neutral
+C-385,2025-01-11,slack,"Performance consistently strong.",positive
+C-386,2025-01-12,email,"Quick question about support.",neutral
+C-387,2025-01-13,slack,"System reliability excellent.",positive
+C-388,2025-01-14,email,"Can you share roadmap?",neutral
+C-389,2025-01-15,slack,"Platform performance outstanding.",positive
+C-390,2025-01-16,email,"Need info on features.",neutral
+C-391,2025-01-17,slack,"Team impressed with capabilities.",positive
+C-392,2025-01-18,email,"Interested in training.",neutral
+C-393,2025-01-19,slack,"System uptime remarkable.",positive
+C-394,2025-01-20,email,"Quick question about pricing.",neutral
+C-395,2025-01-21,slack,"Platform stability excellent.",positive
+C-396,2025-01-22,email,"Can we schedule call?",neutral
+C-398,2025-01-23,slack,"Performance exceeding expectations.",positive
+C-399,2025-01-24,email,"Need information on APIs.",neutral
+C-400,2025-01-25,slack,"System reliability outstanding.",positive
+C-401,2025-01-26,email,"Interested in volume discounts.",neutral
+C-402,2025-01-27,slack,"Platform uptime perfect.",positive
+C-403,2025-01-28,email,"Quick question about contracts.",neutral
+C-405,2025-01-29,slack,"Performance consistently excellent.",positive
+C-406,2025-01-30,email,"Can you provide case studies?",neutral
+C-407,2025-01-31,slack,"System stability impressive.",positive
+C-408,2025-02-01,email,"Need clarification on terms.",neutral
+C-409,2025-02-02,slack,"Platform performance outstanding.",positive
+C-410,2025-02-03,email,"Interested in custom dev.",neutral
+C-411,2025-02-04,slack,"Team very satisfied overall.",positive
+C-412,2025-02-05,email,"Quick question about features.",neutral
+C-413,2025-02-06,slack,"System uptime remarkable.",positive
+C-414,2025-02-07,email,"Can you share documentation?",neutral
+C-415,2025-02-08,slack,"Platform reliability excellent.",positive
+C-416,2025-02-09,email,"Need info on integrations.",neutral
+C-418,2025-02-10,slack,"Performance exceeding goals.",positive
+C-419,2025-02-11,email,"Interested in enterprise tier.",neutral
+C-420,2025-02-12,slack,"System stability outstanding.",positive
+C-421,2025-02-13,email,"Quick question about support.",neutral
+C-422,2025-02-14,slack,"Platform uptime perfect.",positive
+C-423,2025-02-15,email,"Can we discuss options?",neutral
+C-424,2025-02-16,slack,"Performance consistently strong.",positive
+C-426,2025-02-17,email,"Need information on features.",neutral
+C-427,2025-02-18,slack,"System reliability excellent.",positive
+C-428,2025-02-19,email,"Interested in advanced features.",neutral
+C-429,2025-02-20,slack,"Platform performance outstanding.",positive
+C-430,2025-02-21,email,"Quick question about pricing.",neutral
+C-431,2025-02-22,slack,"Team impressed with system.",positive
+C-432,2025-02-23,email,"Can you provide roadmap?",neutral
+C-433,2025-02-24,slack,"System uptime remarkable.",positive
+C-434,2025-02-25,email,"Need clarification on billing.",neutral
+C-435,2025-02-26,slack,"Platform stability excellent.",positive
+C-436,2025-01-10,email,"Interested in volume options.",neutral
+C-437,2025-01-11,slack,"Performance exceeding targets.",positive
+C-438,2025-01-12,email,"Quick question about contracts.",neutral
+C-439,2025-01-13,slack,"System reliability outstanding.",positive
+C-440,2025-01-14,email,"Can we schedule demo?",neutral
+C-441,2025-01-15,slack,"Platform uptime perfect.",positive
+C-442,2025-01-16,email,"Need info on APIs.",neutral
+C-443,2025-01-17,slack,"Performance consistently excellent.",positive
+C-444,2025-01-18,email,"Interested in training options.",neutral
+C-445,2025-01-19,slack,"System stability impressive.",positive
+C-447,2025-01-20,email,"Quick question about features.",neutral
+C-448,2025-01-21,slack,"Platform performance outstanding.",positive
+C-449,2025-01-22,email,"Can you share best practices?",neutral
+C-450,2025-01-23,slack,"Team very satisfied.",positive
+C-451,2025-01-24,email,"Need information on integrations.",neutral
+C-452,2025-01-25,slack,"System uptime remarkable.",positive
+C-454,2025-01-26,email,"Interested in custom solutions.",neutral
+C-455,2025-01-27,slack,"Platform reliability excellent.",positive
+C-456,2025-01-28,email,"Quick question about licensing.",neutral
+C-457,2025-01-29,slack,"Performance exceeding expectations.",positive
+C-458,2025-01-30,email,"Can we discuss enterprise plan?",neutral
+C-459,2025-01-31,slack,"System stability outstanding.",positive
+C-460,2025-02-01,email,"Need clarification on terms.",neutral
+C-461,2025-02-02,slack,"Platform uptime perfect.",positive
+C-462,2025-02-03,email,"Interested in advanced tools.",neutral
+C-463,2025-02-04,slack,"Performance consistently strong.",positive
+C-464,2025-02-05,email,"Quick question about support.",neutral
+C-465,2025-02-06,slack,"System reliability excellent.",positive
+C-468,2025-02-07,email,"Can you provide documentation?",neutral
+C-469,2025-02-08,slack,"Platform performance outstanding.",positive
+C-470,2025-02-09,email,"Need info on features.",neutral
+C-471,2025-02-10,slack,"Team impressed with capabilities.",positive
+C-472,2025-02-11,email,"Interested in volume discounts.",neutral
+C-473,2025-02-12,slack,"System uptime remarkable.",positive
+C-475,2025-02-13,email,"Quick question about pricing.",neutral
+C-476,2025-02-14,slack,"Platform stability excellent.",positive
+C-477,2025-02-15,email,"Can we schedule call?",neutral
+C-478,2025-02-16,slack,"Performance exceeding goals.",positive
+C-479,2025-02-17,email,"Need information on APIs.",neutral
+C-480,2025-02-18,slack,"System reliability outstanding.",positive
+C-481,2025-02-19,email,"Interested in custom dev.",neutral
+C-482,2025-02-20,slack,"Platform uptime perfect.",positive
+C-483,2025-02-21,email,"Quick question about contracts.",neutral
+C-484,2025-02-22,slack,"Performance consistently excellent.",positive
+C-485,2025-02-23,email,"Can you share roadmap?",neutral
+C-486,2025-02-24,slack,"System stability impressive.",positive
+C-488,2025-02-25,email,"Need clarification on billing.",neutral
+C-489,2025-02-26,slack,"Platform performance outstanding.",positive
+C-490,2025-01-05,email,"Interested in training options.",neutral
+C-491,2025-01-06,slack,"Team very satisfied overall.",positive
+C-492,2025-01-07,email,"Quick question about features.",neutral
+C-493,2025-01-08,slack,"System uptime remarkable.",positive
+C-494,2025-01-09,email,"Can you provide case studies?",neutral
+C-496,2025-01-10,slack,"Platform reliability excellent.",positive
+C-497,2025-01-11,email,"Need info on integrations.",neutral
+C-498,2025-01-12,slack,"Performance exceeding targets.",positive
+C-499,2025-01-13,email,"Interested in enterprise tier.",neutral
+C-500,2025-01-14,slack,"System stability outstanding. Great work team!",positive

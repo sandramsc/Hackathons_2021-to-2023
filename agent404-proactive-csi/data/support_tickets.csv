@@ -1,0 +1,501 @@
+ticket_id,customer_id,created_at,category,description,sentiment
+T-1001,C-001,2025-02-01,Outage,"System outage during transaction sync - critical production issue",very_negative
+T-1002,C-003,2025-02-03,Bug,"Data mismatch in analytics module causing incorrect reports",negative
+T-1003,C-002,2025-02-05,Billing,"Need invoice correction for January billing period",neutral
+T-1004,C-005,2025-02-10,Performance,"Dashboard loading very slow during peak hours",negative
+T-1005,C-007,2025-02-02,Outage,"Complete service outage affecting all users - URGENT",very_negative
+T-1006,C-011,2025-02-04,Bug,"Export functionality not working properly",negative
+T-1007,C-004,2025-02-06,Feature_Request,"Request for additional reporting capabilities",positive
+T-1008,C-016,2025-02-08,Performance,"API response times degraded significantly",negative
+T-1009,C-021,2025-02-09,Outage,"Database connection failures intermittent",very_negative
+T-1010,C-006,2025-02-11,Billing,"Question about upcoming renewal pricing",neutral
+T-1011,C-026,2025-02-12,Bug,"Data synchronization issues between modules",negative
+T-1012,C-008,2025-02-13,Feature_Request,"Would like custom dashboard widgets",positive
+T-1013,C-032,2025-02-14,Performance,"Report generation timing out frequently",negative
+T-1014,C-010,2025-02-15,Support,"Need help with user permissions setup",neutral
+T-1015,C-036,2025-02-16,Bug,"Notification emails not being delivered",negative
+T-1016,C-013,2025-02-17,Feature_Request,"Request API documentation improvements",positive
+T-1017,C-046,2025-02-18,Outage,"Service completely unavailable since this morning",very_negative
+T-1018,C-012,2025-02-19,Billing,"Need to update payment method",neutral
+T-1019,C-056,2025-02-20,Performance,"Mobile app crashes during data entry",negative
+T-1020,C-015,2025-02-21,Support,"Training request for new team members",positive
+T-1021,C-067,2025-02-22,Bug,"Incorrect calculations in financial reports",very_negative
+T-1022,C-009,2025-02-23,Feature_Request,"Integration with third-party tools needed",neutral
+T-1023,C-076,2025-02-24,Performance,"System unresponsive during batch processing",negative
+T-1024,C-014,2025-02-25,Support,"Help with data migration from old system",neutral
+T-1025,C-096,2025-02-26,Bug,"User interface glitches on Safari browser",negative
+T-1026,C-017,2025-01-15,Feature_Request,"Real-time collaboration features requested",positive
+T-1027,C-102,2025-01-16,Outage,"Authentication service down - cannot login",very_negative
+T-1028,C-019,2025-01-17,Billing,"Clarification needed on contract terms",neutral
+T-1029,C-121,2025-01-18,Performance,"Slow search functionality across large datasets",negative
+T-1030,C-018,2025-01-19,Support,"Best practices for workflow optimization",positive
+T-1031,C-137,2025-01-20,Bug,"Duplicate records appearing in database",negative
+T-1032,C-020,2025-01-21,Feature_Request,"Enhanced security features for compliance",neutral
+T-1033,C-145,2025-01-22,Performance,"Backup process taking too long",negative
+T-1034,C-022,2025-01-23,Support,"Need technical specifications for integration",neutral
+T-1035,C-166,2025-01-24,Outage,"Email notification system completely broken",very_negative
+T-1036,C-023,2025-01-25,Feature_Request,"Custom fields for customer data",positive
+T-1037,C-194,2025-01-26,Bug,"Filter options not working correctly",negative
+T-1038,C-025,2025-01-27,Billing,"Upgrade pricing information needed",neutral
+T-1039,C-215,2025-01-28,Performance,"Page load times unacceptable",negative
+T-1040,C-024,2025-01-29,Support,"Documentation for API endpoints",positive
+T-1041,C-236,2025-01-30,Outage,"Critical system failure affecting all operations",very_negative
+T-1042,C-027,2025-01-31,Feature_Request,"Multi-language support needed",neutral
+T-1043,C-264,2025-02-01,Bug,"Data export contains corrupted files",negative
+T-1044,C-028,2025-02-02,Support,"Onboarding assistance for new department",positive
+T-1045,C-277,2025-02-03,Performance,"Dashboard widgets not refreshing",negative
+T-1046,C-029,2025-02-04,Billing,"Invoice discrepancy needs resolution",neutral
+T-1047,C-285,2025-02-05,Bug,"Permission settings not saving properly",negative
+T-1048,C-031,2025-02-06,Feature_Request,"Advanced analytics capabilities",positive
+T-1049,C-306,2025-02-07,Outage,"Server errors preventing data access",very_negative
+T-1050,C-030,2025-02-08,Support,"Training materials for advanced features",neutral
+T-1051,C-334,2025-02-09,Performance,"Memory usage causing system slowdown",negative
+T-1052,C-033,2025-02-10,Feature_Request,"Bulk operations functionality",positive
+T-1053,C-355,2025-02-11,Bug,"Auto-save feature not working",negative
+T-1054,C-035,2025-02-12,Billing,"Contract renewal terms discussion",neutral
+T-1055,C-376,2025-02-13,Outage,"Production environment completely down",very_negative
+T-1056,C-034,2025-02-14,Support,"Integration troubleshooting assistance",neutral
+T-1057,C-397,2025-02-15,Performance,"API rate limiting issues",negative
+T-1058,C-037,2025-02-16,Feature_Request,"Customizable email templates",positive
+T-1059,C-404,2025-02-17,Bug,"Scheduled reports not being generated",negative
+T-1060,C-038,2025-02-18,Support,"Security audit documentation needed",neutral
+T-1061,C-417,2025-02-19,Outage,"Database corruption detected - data loss risk",very_negative
+T-1062,C-040,2025-02-20,Feature_Request,"Mobile app improvements",positive
+T-1063,C-425,2025-02-21,Performance,"Concurrent user limit causing lockouts",negative
+T-1064,C-039,2025-02-22,Billing,"Add-on services pricing inquiry",neutral
+T-1065,C-446,2025-02-23,Bug,"Chart rendering incorrectly on dashboard",negative
+T-1066,C-042,2025-02-24,Support,"Compliance requirements consultation",positive
+T-1067,C-453,2025-02-25,Outage,"File upload service unavailable",very_negative
+T-1068,C-041,2025-02-26,Feature_Request,"Audit trail enhancements",neutral
+T-1069,C-467,2025-01-10,Performance,"Batch job failures during overnight processing",negative
+T-1070,C-044,2025-01-11,Support,"User management best practices",positive
+T-1071,C-474,2025-01-12,Bug,"Broken links in help documentation",negative
+T-1072,C-043,2025-01-13,Billing,"Volume discount application",neutral
+T-1073,C-487,2025-01-14,Outage,"Major infrastructure failure - all services affected",very_negative
+T-1074,C-045,2025-01-15,Feature_Request,"Workflow automation tools",positive
+T-1075,C-495,2025-01-16,Performance,"Search indexing not updating",negative
+T-1076,C-048,2025-01-17,Support,"Data retention policy questions",neutral
+T-1077,C-047,2025-01-18,Bug,"Timezone handling errors",negative
+T-1078,C-049,2025-01-19,Feature_Request,"Enhanced reporting filters",positive
+T-1079,C-052,2025-01-20,Performance,"Import process hanging indefinitely",negative
+T-1080,C-050,2025-01-21,Billing,"Payment plan options inquiry",neutral
+T-1081,C-051,2025-01-22,Bug,"Mobile app login issues",negative
+T-1082,C-053,2025-01-23,Support,"Migration timeline planning",positive
+T-1083,C-055,2025-01-24,Performance,"Database queries extremely slow",negative
+T-1084,C-054,2025-01-25,Feature_Request,"SSO integration support",neutral
+T-1085,C-057,2025-01-26,Bug,"Email notifications delayed",negative
+T-1086,C-059,2025-01-27,Support,"API key rotation procedure",positive
+T-1087,C-058,2025-01-28,Performance,"UI freezing during heavy load",negative
+T-1088,C-060,2025-01-29,Billing,"Enterprise plan features clarification",neutral
+T-1089,C-061,2025-01-30,Bug,"Data validation errors",negative
+T-1090,C-064,2025-01-31,Feature_Request,"Custom branding options",positive
+T-1091,C-062,2025-02-01,Performance,"File downloads failing intermittently",negative
+T-1092,C-063,2025-02-02,Support,"Backup and recovery procedures",neutral
+T-1093,C-065,2025-02-03,Bug,"Incorrect date formatting",negative
+T-1094,C-068,2025-02-04,Feature_Request,"Advanced permission controls",positive
+T-1095,C-066,2025-02-05,Performance,"Memory leaks causing crashes",negative
+T-1096,C-069,2025-02-06,Billing,"Multi-year contract options",neutral
+T-1097,C-070,2025-02-07,Bug,"API authentication failures",negative
+T-1098,C-073,2025-02-08,Support,"Performance tuning recommendations",positive
+T-1099,C-071,2025-02-09,Performance,"Export timeouts for large datasets",negative
+T-1100,C-072,2025-02-10,Feature_Request,"Real-time notifications",neutral
+T-1101,C-075,2025-02-11,Bug,"Broken image uploads",negative
+T-1102,C-074,2025-02-12,Support,"Disaster recovery planning",positive
+T-1103,C-077,2025-02-13,Performance,"Sluggish UI response times",negative
+T-1104,C-078,2025-02-14,Billing,"Invoice payment terms",neutral
+T-1105,C-081,2025-02-15,Bug,"Widget configuration not persisting",negative
+T-1106,C-079,2025-02-16,Feature_Request,"Collaborative editing features",positive
+T-1107,C-080,2025-02-17,Performance,"Network latency issues",negative
+T-1108,C-083,2025-02-18,Support,"Security best practices guide",neutral
+T-1109,C-082,2025-02-19,Bug,"Duplicate notification alerts",negative
+T-1110,C-084,2025-02-20,Feature_Request,"Data archival functionality",positive
+T-1111,C-085,2025-02-21,Performance,"Cache invalidation problems",negative
+T-1112,C-088,2025-02-22,Billing,"Discount eligibility verification",neutral
+T-1113,C-086,2025-02-23,Bug,"Sorting functionality broken",negative
+T-1114,C-087,2025-02-24,Support,"Integration certification process",positive
+T-1115,C-090,2025-02-25,Performance,"Background jobs not completing",negative
+T-1116,C-089,2025-02-26,Feature_Request,"Enhanced dashboard customization",neutral
+T-1117,C-091,2025-01-05,Bug,"Form validation errors",negative
+T-1118,C-092,2025-01-06,Support,"Platform migration assistance",positive
+T-1119,C-095,2025-01-07,Performance,"Slow page rendering",negative
+T-1120,C-093,2025-01-08,Billing,"Credit application process",neutral
+T-1121,C-094,2025-01-09,Bug,"Broken CSV export",negative
+T-1122,C-097,2025-01-10,Feature_Request,"Advanced search capabilities",positive
+T-1123,C-098,2025-01-11,Performance,"Connection timeouts",negative
+T-1124,C-101,2025-01-12,Support,"Data privacy compliance",neutral
+T-1125,C-099,2025-01-13,Bug,"Incorrect user permissions",negative
+T-1126,C-100,2025-01-14,Feature_Request,"Batch editing tools",positive
+T-1127,C-103,2025-01-15,Performance,"Slow API responses",negative
+T-1128,C-104,2025-01-16,Billing,"Renewal pricing confirmation",neutral
+T-1129,C-106,2025-01-17,Bug,"Mobile app synchronization issues",negative
+T-1130,C-105,2025-01-18,Support,"Technical architecture review",positive
+T-1131,C-107,2025-01-19,Performance,"High CPU usage",negative
+T-1132,C-109,2025-01-20,Feature_Request,"Webhook integrations",neutral
+T-1133,C-108,2025-01-21,Bug,"Broken pagination",negative
+T-1134,C-110,2025-01-22,Support,"User training program",positive
+T-1135,C-111,2025-01-23,Performance,"Database deadlocks",negative
+T-1136,C-112,2025-01-24,Billing,"Payment method update",neutral
+T-1137,C-113,2025-01-25,Bug,"Incorrect calculations",negative
+T-1138,C-116,2025-01-26,Feature_Request,"Multi-factor authentication",positive
+T-1139,C-114,2025-01-27,Performance,"Session timeouts",negative
+T-1140,C-115,2025-01-28,Support,"Configuration assistance",neutral
+T-1141,C-118,2025-01-29,Bug,"Data import failures",negative
+T-1142,C-117,2025-01-30,Feature_Request,"Role-based dashboards",positive
+T-1143,C-119,2025-01-31,Performance,"File processing delays",negative
+T-1144,C-120,2025-02-01,Billing,"Contract amendment request",neutral
+T-1145,C-123,2025-02-02,Bug,"Broken navigation menu",negative
+T-1146,C-122,2025-02-03,Support,"Compliance certification",positive
+T-1147,C-124,2025-02-04,Performance,"Queue processing bottleneck",negative
+T-1148,C-125,2025-02-05,Feature_Request,"Custom integrations",neutral
+T-1149,C-126,2025-02-06,Bug,"Error handling issues",negative
+T-1150,C-127,2025-02-07,Support,"Scalability planning",positive
+T-1151,C-130,2025-02-08,Performance,"Load balancing problems",negative
+T-1152,C-128,2025-02-09,Billing,"Billing cycle adjustment",neutral
+T-1153,C-129,2025-02-10,Bug,"Auto-complete not working",negative
+T-1154,C-132,2025-02-11,Feature_Request,"Advanced analytics",positive
+T-1155,C-131,2025-02-12,Performance,"Slow network calls",negative
+T-1156,C-133,2025-02-13,Support,"Change management process",neutral
+T-1157,C-134,2025-02-14,Bug,"Localization errors",negative
+T-1158,C-137,2025-02-15,Feature_Request,"Data visualization tools",positive
+T-1159,C-135,2025-02-16,Performance,"Memory allocation issues",negative
+T-1160,C-136,2025-02-17,Billing,"Proration calculation",neutral
+T-1161,C-139,2025-02-18,Bug,"Broken attachment downloads",negative
+T-1162,C-138,2025-02-19,Support,"Platform updates schedule",positive
+T-1163,C-140,2025-02-20,Performance,"Transaction processing lag",negative
+T-1164,C-141,2025-02-21,Feature_Request,"Automated workflows",neutral
+T-1165,C-144,2025-02-22,Bug,"Template rendering issues",negative
+T-1166,C-142,2025-02-23,Support,"Deployment assistance",positive
+T-1167,C-143,2025-02-24,Performance,"Index fragmentation",negative
+T-1168,C-146,2025-02-25,Billing,"Tax exemption setup",neutral
+T-1169,C-147,2025-02-26,Bug,"Validation bypass vulnerability",negative
+T-1170,C-148,2025-01-01,Feature_Request,"Batch operations",positive
+T-1171,C-151,2025-01-02,Performance,"Connection pool exhaustion",negative
+T-1172,C-149,2025-01-03,Support,"Security hardening guide",neutral
+T-1173,C-150,2025-01-04,Bug,"Broken date pickers",negative
+T-1174,C-153,2025-01-05,Feature_Request,"Custom report builder",positive
+T-1175,C-152,2025-01-06,Performance,"Slow table scans",negative
+T-1176,C-154,2025-01-07,Billing,"Payment reconciliation",neutral
+T-1177,C-155,2025-01-08,Bug,"Session management errors",negative
+T-1178,C-158,2025-01-09,Support,"Capacity planning",positive
+T-1179,C-156,2025-01-10,Performance,"Resource contention",negative
+T-1180,C-157,2025-01-11,Feature_Request,"API versioning",neutral
+T-1181,C-160,2025-01-12,Bug,"Inconsistent data states",negative
+T-1182,C-159,2025-01-13,Support,"Testing environment setup",positive
+T-1183,C-161,2025-01-14,Performance,"Thread pool saturation",negative
+T-1184,C-162,2025-01-15,Billing,"Multi-currency support",neutral
+T-1185,C-165,2025-01-16,Bug,"Caching inconsistencies",negative
+T-1186,C-163,2025-01-17,Feature_Request,"Audit logging",positive
+T-1187,C-164,2025-01-18,Performance,"Lock contention",negative
+T-1188,C-167,2025-01-19,Support,"Monitoring setup",neutral
+T-1189,C-168,2025-01-20,Bug,"Race conditions",negative
+T-1190,C-169,2025-01-21,Feature_Request,"Scheduled tasks",positive
+T-1191,C-172,2025-01-22,Performance,"Inefficient queries",negative
+T-1192,C-170,2025-01-23,Billing,"Credit note request",neutral
+T-1193,C-171,2025-01-24,Bug,"Memory corruption",negative
+T-1194,C-174,2025-01-25,Support,"Upgrade path planning",positive
+T-1195,C-173,2025-01-26,Performance,"Garbage collection pauses",negative
+T-1196,C-175,2025-01-27,Feature_Request,"Data masking",neutral
+T-1197,C-176,2025-01-28,Bug,"Encoding issues",negative
+T-1198,C-179,2025-01-29,Support,"Performance benchmarking",positive
+T-1199,C-177,2025-01-30,Performance,"Disk I/O bottleneck",negative
+T-1200,C-178,2025-01-31,Billing,"Subscription pause request",neutral
+T-1201,C-181,2025-02-01,Bug,"Configuration conflicts",negative
+T-1202,C-180,2025-02-02,Feature_Request,"Single sign-on",positive
+T-1203,C-182,2025-02-03,Performance,"Network packet loss",negative
+T-1204,C-183,2025-02-04,Support,"DR testing",neutral
+T-1205,C-186,2025-02-05,Bug,"Null pointer exceptions",negative
+T-1206,C-184,2025-02-06,Feature_Request,"Data retention policies",positive
+T-1207,C-185,2025-02-07,Performance,"Connection leaks",negative
+T-1208,C-188,2025-02-08,Billing,"Pro-rated refund",neutral
+T-1209,C-187,2025-02-09,Bug,"Infinite loops",negative
+T-1210,C-189,2025-02-10,Support,"Incident response plan",positive
+T-1211,C-190,2025-02-11,Performance,"Buffer overflows",negative
+T-1212,C-193,2025-02-12,Feature_Request,"Encryption at rest",neutral
+T-1213,C-191,2025-02-13,Bug,"Deadlock detection",negative
+T-1214,C-192,2025-02-14,Support,"Load testing assistance",positive
+T-1215,C-195,2025-02-15,Performance,"CPU throttling",negative
+T-1216,C-196,2025-02-16,Billing,"Contract extension",neutral
+T-1217,C-197,2025-02-17,Bug,"Transaction rollback failures",negative
+T-1218,C-200,2025-02-18,Feature_Request,"Geo-redundancy",positive
+T-1219,C-198,2025-02-19,Performance,"Network saturation",negative
+T-1220,C-199,2025-02-20,Support,"SLA documentation",neutral
+T-1221,C-202,2025-02-21,Bug,"Memory leaks in workers",negative
+T-1222,C-201,2025-02-22,Feature_Request,"Multi-tenancy",positive
+T-1223,C-203,2025-02-23,Performance,"Thread starvation",negative
+T-1224,C-204,2025-02-24,Billing,"Volume pricing",neutral
+T-1225,C-207,2025-02-25,Bug,"SQL injection vulnerability",negative
+T-1226,C-205,2025-02-26,Support,"Security audit",positive
+T-1227,C-206,2025-01-15,Performance,"DNS resolution delays",negative
+T-1228,C-209,2025-01-16,Feature_Request,"GraphQL API",neutral
+T-1229,C-208,2025-01-17,Bug,"Cross-site scripting",negative
+T-1230,C-210,2025-01-18,Support,"Penetration testing",positive
+T-1231,C-211,2025-01-19,Performance,"TLS handshake slow",negative
+T-1232,C-214,2025-01-20,Billing,"Early termination fee",neutral
+T-1233,C-212,2025-01-21,Bug,"CSRF token issues",negative
+T-1234,C-213,2025-01-22,Feature_Request,"Rate limiting",positive
+T-1235,C-216,2025-01-23,Performance,"Certificate validation lag",negative
+T-1236,C-217,2025-01-24,Support,"Compliance audit prep",neutral
+T-1237,C-218,2025-01-25,Bug,"Authorization bypass",negative
+T-1238,C-221,2025-01-26,Feature_Request,"IP whitelisting",positive
+T-1239,C-219,2025-01-27,Performance,"Proxy timeout",negative
+T-1240,C-220,2025-01-28,Billing,"Discount code issue",neutral
+T-1241,C-223,2025-01-29,Bug,"Session fixation",negative
+T-1242,C-222,2025-01-30,Support,"GDPR compliance",positive
+T-1243,C-224,2025-01-31,Performance,"CDN cache misses",negative
+T-1244,C-225,2025-02-01,Feature_Request,"Two-factor auth",neutral
+T-1245,C-228,2025-02-02,Bug,"Clickjacking vulnerability",negative
+T-1246,C-226,2025-02-03,Support,"SOC 2 audit",positive
+T-1247,C-227,2025-02-04,Performance,"WAF blocking legitimate traffic",negative
+T-1248,C-230,2025-02-05,Billing,"Usage overage charges",neutral
+T-1249,C-229,2025-02-06,Bug,"Open redirect vulnerability",negative
+T-1250,C-231,2025-02-07,Feature_Request,"OAuth integration",positive
+T-1251,C-232,2025-02-08,Performance,"Load balancer health check fails",negative
+T-1252,C-235,2025-02-09,Support,"Backup verification",neutral
+T-1253,C-233,2025-02-10,Bug,"Insecure deserialization",negative
+T-1254,C-234,2025-02-11,Feature_Request,"SAML support",positive
+T-1255,C-237,2025-02-12,Performance,"Auto-scaling not triggering",negative
+T-1256,C-238,2025-02-13,Billing,"Payment gateway issue",neutral
+T-1257,C-239,2025-02-14,Bug,"XXE injection",negative
+T-1258,C-242,2025-02-15,Support,"Failover testing",positive
+T-1259,C-240,2025-02-16,Performance,"Container restart loop",negative
+T-1260,C-241,2025-02-17,Feature_Request,"LDAP integration",neutral
+T-1261,C-244,2025-02-18,Bug,"Path traversal",negative
+T-1262,C-243,2025-02-19,Support,"Infrastructure review",positive
+T-1263,C-245,2025-02-20,Performance,"Kubernetes pod eviction",negative
+T-1264,C-246,2025-02-21,Billing,"Subscription upgrade",neutral
+T-1265,C-249,2025-02-22,Bug,"Command injection",negative
+T-1266,C-247,2025-02-23,Feature_Request,"Biometric auth",positive
+T-1267,C-248,2025-02-24,Performance,"Service mesh latency",negative
+T-1268,C-251,2025-02-25,Support,"Cloud migration",neutral
+T-1269,C-250,2025-02-26,Bug,"SSRF vulnerability",negative
+T-1270,C-252,2025-01-10,Feature_Request,"Hardware key support",positive
+T-1271,C-253,2025-01-11,Performance,"Ingress controller lag",negative
+T-1272,C-256,2025-01-12,Billing,"Refund processing",neutral
+T-1273,C-254,2025-01-13,Bug,"Privilege escalation",negative
+T-1274,C-255,2025-01-14,Support,"High availability setup",positive
+T-1275,C-258,2025-01-15,Performance,"etcd cluster split",negative
+T-1276,C-257,2025-01-16,Feature_Request,"Certificate pinning",neutral
+T-1277,C-259,2025-01-17,Bug,"Business logic flaw",negative
+T-1278,C-260,2025-01-18,Support,"Zero-downtime deployment",positive
+T-1279,C-263,2025-01-19,Performance,"DNS propagation delay",negative
+T-1280,C-261,2025-01-20,Billing,"Chargeback dispute",neutral
+T-1281,C-262,2025-01-21,Bug,"Information disclosure",negative
+T-1282,C-265,2025-01-22,Feature_Request,"Passwordless login",positive
+T-1283,C-266,2025-01-23,Performance,"Circuit breaker open",negative
+T-1284,C-267,2025-01-24,Support,"Blue-green deployment",neutral
+T-1285,C-270,2025-01-25,Bug,"Unvalidated redirect",negative
+T-1286,C-268,2025-01-26,Feature_Request,"Behavioral analytics",positive
+T-1287,C-269,2025-01-27,Performance,"Replica lag",negative
+T-1288,C-272,2025-01-28,Billing,"Currency conversion",neutral
+T-1289,C-271,2025-01-29,Bug,"Missing authentication",negative
+T-1290,C-273,2025-01-30,Support,"Canary deployment",positive
+T-1291,C-274,2025-01-31,Performance,"Shard rebalancing",negative
+T-1292,C-276,2025-02-01,Feature_Request,"Risk scoring",neutral
+T-1293,C-275,2025-02-02,Bug,"Weak cryptography",negative
+T-1294,C-279,2025-02-03,Support,"Rolling update strategy",positive
+T-1295,C-278,2025-02-04,Performance,"Partition skew",negative
+T-1296,C-280,2025-02-05,Billing,"Tax calculation error",neutral
+T-1297,C-281,2025-02-06,Bug,"Insufficient logging",negative
+T-1298,C-284,2025-02-07,Feature_Request,"Anomaly detection",positive
+T-1299,C-282,2025-02-08,Performance,"Message queue backlog",negative
+T-1300,C-283,2025-02-09,Support,"Chaos engineering",neutral
+T-1301,C-286,2025-02-10,Bug,"Hardcoded credentials",negative
+T-1302,C-287,2025-02-11,Feature_Request,"Fraud detection",positive
+T-1303,C-288,2025-02-12,Performance,"Stream processing lag",negative
+T-1304,C-291,2025-02-13,Billing,"Overage alert config",neutral
+T-1305,C-289,2025-02-14,Bug,"Insecure defaults",negative
+T-1306,C-290,2025-02-15,Support,"Observability stack",positive
+T-1307,C-293,2025-02-16,Performance,"Write amplification",negative
+T-1308,C-292,2025-02-17,Feature_Request,"Threat intelligence",neutral
+T-1309,C-294,2025-02-18,Bug,"Missing HSTS header",negative
+T-1310,C-295,2025-02-19,Support,"SRE practices",positive
+T-1311,C-298,2025-02-20,Performance,"Compaction storms",negative
+T-1312,C-296,2025-02-21,Billing,"Payment retry logic",neutral
+T-1313,C-297,2025-02-22,Bug,"Weak session ID",negative
+T-1314,C-300,2025-02-23,Feature_Request,"DLP integration",positive
+T-1315,C-299,2025-02-24,Performance,"Bloom filter miss rate",negative
+T-1316,C-301,2025-02-25,Support,"Incident postmortem",neutral
+T-1317,C-302,2025-02-26,Bug,"Cookie security flags",negative
+T-1318,C-305,2025-01-05,Feature_Request,"SIEM integration",positive
+T-1319,C-303,2025-01-06,Performance,"Read replica lag",negative
+T-1320,C-304,2025-01-07,Billing,"Commitment discount",neutral
+T-1321,C-307,2025-01-08,Bug,"Insufficient entropy",negative
+T-1322,C-308,2025-01-09,Support,"Runbook development",positive
+T-1323,C-309,2025-01-10,Performance,"Split brain scenario",negative
+T-1324,C-312,2025-01-11,Feature_Request,"Endpoint protection",neutral
+T-1325,C-310,2025-01-12,Bug,"Cleartext transmission",negative
+T-1326,C-311,2025-01-13,Support,"GitOps workflow",positive
+T-1327,C-314,2025-01-14,Performance,"Tombstone accumulation",negative
+T-1328,C-313,2025-01-15,Billing,"Reserved capacity",neutral
+T-1329,C-315,2025-01-16,Bug,"Unencrypted storage",negative
+T-1330,C-316,2025-01-17,Feature_Request,"Cloud workload protection",positive
+T-1331,C-319,2025-01-18,Performance,"Coordinator unavailable",negative
+T-1332,C-317,2025-01-19,Support,"Infrastructure as code",neutral
+T-1333,C-318,2025-01-20,Bug,"Weak TLS ciphers",negative
+T-1334,C-321,2025-01-21,Feature_Request,"Container security",positive
+T-1335,C-320,2025-01-22,Performance,"Gossip protocol delay",negative
+T-1336,C-322,2025-01-23,Billing,"Spot instance savings",neutral
+T-1337,C-323,2025-01-24,Bug,"Missing CSP header",negative
+T-1338,C-326,2025-01-25,Support,"Policy as code",positive
+T-1339,C-324,2025-01-26,Performance,"Merkle tree rebuild",negative
+T-1340,C-325,2025-01-27,Feature_Request,"Runtime protection",neutral
+T-1341,C-328,2025-01-28,Bug,"Subdomain takeover risk",negative
+T-1342,C-327,2025-01-29,Support,"Service mesh config",positive
+T-1343,C-329,2025-01-30,Performance,"Vector clock drift",negative
+T-1344,C-330,2025-01-31,Billing,"Savings plan optimization",neutral
+T-1345,C-333,2025-02-01,Bug,"DNS zone transfer allowed",negative
+T-1346,C-331,2025-02-02,Feature_Request,"Network segmentation",positive
+T-1347,C-332,2025-02-03,Performance,"Raft election timeout",negative
+T-1348,C-335,2025-02-04,Support,"Immutable infrastructure",neutral
+T-1349,C-336,2025-02-05,Bug,"Exposed admin panel",negative
+T-1350,C-337,2025-02-06,Feature_Request,"Microsegmentation",positive
+T-1351,C-340,2025-02-07,Performance,"Consensus algorithm stall",negative
+T-1352,C-338,2025-02-08,Billing,"Usage anomaly alert",neutral
+T-1353,C-339,2025-02-09,Bug,"Default credentials",negative
+T-1354,C-342,2025-02-10,Support,"Secret management",positive
+T-1355,C-341,2025-02-11,Performance,"Paxos phase timeout",negative
+T-1356,C-343,2025-02-12,Feature_Request,"Zero trust architecture",neutral
+T-1357,C-344,2025-02-13,Bug,"Unpatched vulnerability",negative
+T-1358,C-347,2025-02-14,Support,"Certificate rotation",positive
+T-1359,C-345,2025-02-15,Performance,"Quorum loss",negative
+T-1360,C-346,2025-02-16,Billing,"Cost allocation tags",neutral
+T-1361,C-349,2025-02-17,Bug,"CORS misconfiguration",negative
+T-1362,C-348,2025-02-18,Feature_Request,"Identity governance",positive
+T-1363,C-350,2025-02-19,Performance,"Leader election loop",negative
+T-1364,C-351,2025-02-20,Support,"Multi-region failover",neutral
+T-1365,C-354,2025-02-21,Bug,"XML bomb attack vector",negative
+T-1366,C-352,2025-02-22,Feature_Request,"Privileged access management",positive
+T-1367,C-353,2025-02-23,Performance,"Distributed transaction timeout",negative
+T-1368,C-356,2025-02-24,Billing,"Reserved instance optimization",neutral
+T-1369,C-357,2025-02-25,Bug,"Server-side template injection",negative
+T-1370,C-358,2025-02-26,Support,"Disaster recovery drill",positive
+T-1371,C-361,2025-01-01,Performance,"Distributed lock contention",negative
+T-1372,C-359,2025-01-02,Feature_Request,"Data loss prevention",neutral
+T-1373,C-360,2025-01-03,Bug,"HTTP parameter pollution",negative
+T-1374,C-363,2025-01-04,Support,"Multi-cloud strategy",positive
+T-1375,C-362,2025-01-05,Performance,"Two-phase commit delay",negative
+T-1376,C-364,2025-01-06,Billing,"Commitment term options",neutral
+T-1377,C-365,2025-01-07,Bug,"Host header injection",negative
+T-1378,C-368,2025-01-08,Feature_Request,"Cloud access security broker",positive
+T-1379,C-366,2025-01-09,Performance,"Saga pattern compensation lag",negative
+T-1380,C-367,2025-01-10,Support,"Platform engineering",neutral
+T-1381,C-370,2025-01-11,Bug,"LDAP injection",negative
+T-1382,C-369,2025-01-12,Feature_Request,"Secure service edge",positive
+T-1383,C-371,2025-01-13,Performance,"Event sourcing replay slow",negative
+T-1384,C-372,2025-01-14,Billing,"Volume tier pricing",neutral
+T-1385,C-375,2025-01-15,Bug,"NoSQL injection",negative
+T-1386,C-373,2025-01-16,Support,"FinOps implementation",positive
+T-1387,C-374,2025-01-17,Performance,"CQRS sync lag",negative
+T-1388,C-377,2025-01-18,Feature_Request,"Extended detection response",neutral
+T-1389,C-378,2025-01-19,Bug,"GraphQL injection",negative
+T-1390,C-379,2025-01-20,Support,"Platform reliability engineering",positive
+T-1391,C-382,2025-01-21,Performance,"Outbox pattern backlog",negative
+T-1392,C-380,2025-01-22,Billing,"Flexible commitment",neutral
+T-1393,C-381,2025-01-23,Bug,"API abuse",negative
+T-1394,C-384,2025-01-24,Feature_Request,"Security orchestration automation",positive
+T-1395,C-383,2025-01-25,Performance,"Inbox pattern duplicate processing",negative
+T-1396,C-385,2025-01-26,Support,"Cloud center of excellence",neutral
+T-1397,C-386,2025-01-27,Bug,"Rate limit bypass",negative
+T-1398,C-389,2025-01-28,Feature_Request,"Managed detection response",positive
+T-1399,C-387,2025-01-29,Performance,"Transactional outbox overflow",negative
+T-1400,C-388,2025-01-30,Billing,"Enterprise agreement review",neutral
+T-1401,C-391,2025-01-31,Bug,"JWT algorithm confusion",negative
+T-1402,C-390,2025-02-01,Support,"DevSecOps pipeline",positive
+T-1403,C-392,2025-02-02,Performance,"Change data capture lag",negative
+T-1404,C-393,2025-02-03,Feature_Request,"Threat hunting platform",neutral
+T-1405,C-396,2025-02-04,Bug,"OAuth token leakage",negative
+T-1406,C-394,2025-02-05,Support,"Cloud governance framework",positive
+T-1407,C-395,2025-02-06,Performance,"Debezium connector stuck",negative
+T-1408,C-398,2025-02-07,Billing,"TCO analysis request",neutral
+T-1409,C-399,2025-02-08,Bug,"SAML response manipulation",negative
+T-1410,C-400,2025-02-09,Feature_Request,"User entity behavior analytics",positive
+T-1411,C-403,2025-02-10,Performance,"Kafka consumer group rebalance",negative
+T-1412,C-401,2025-02-11,Support,"Well-architected review",neutral
+T-1413,C-402,2025-02-12,Bug,"JWT none algorithm",negative
+T-1414,C-405,2025-02-13,Feature_Request,"Insider threat detection",positive
+T-1415,C-406,2025-02-14,Performance,"Kinesis shard iterator expired",negative
+T-1416,C-407,2025-02-15,Billing,"Budget forecast accuracy",neutral
+T-1417,C-410,2025-02-16,Bug,"OpenID Connect redirect",negative
+T-1418,C-408,2025-02-17,Support,"Cloud adoption framework",positive
+T-1419,C-409,2025-02-18,Performance,"Event hub partition skew",negative
+T-1420,C-412,2025-02-19,Feature_Request,"Deception technology",neutral
+T-1421,C-411,2025-02-20,Bug,"WebSocket hijacking",negative
+T-1422,C-413,2025-02-21,Support,"Landing zone architecture",positive
+T-1423,C-414,2025-02-22,Performance,"Service bus queue deadletter",negative
+T-1424,C-416,2025-02-23,Billing,"Showback report accuracy",neutral
+T-1425,C-415,2025-02-24,Bug,"gRPC metadata injection",negative
+T-1426,C-419,2025-02-25,Feature_Request,"Security information management",positive
+T-1427,C-418,2025-02-26,Performance,"RabbitMQ queue overflow",negative
+T-1428,C-420,2025-01-15,Support,"Tag governance policy",neutral
+T-1429,C-421,2025-01-16,Bug,"Protobuf deserialization",negative
+T-1430,C-424,2025-01-17,Feature_Request,"Continuous compliance monitoring",positive
+T-1431,C-422,2025-01-18,Performance,"ActiveMQ broker memory",negative
+T-1432,C-423,2025-01-19,Billing,"Chargeback accuracy",neutral
+T-1433,C-426,2025-01-20,Bug,"MessagePack injection",negative
+T-1434,C-427,2025-01-21,Support,"Cloud maturity assessment",positive
+T-1435,C-428,2025-01-22,Performance,"NATS cluster split-brain",negative
+T-1436,C-431,2025-01-23,Feature_Request,"Attack surface management",neutral
+T-1437,C-429,2025-01-24,Bug,"Avro schema poisoning",negative
+T-1438,C-430,2025-01-25,Support,"Reference architecture review",positive
+T-1439,C-433,2025-01-26,Performance,"Pulsar broker disconnection",negative
+T-1440,C-432,2025-01-27,Billing,"Cost optimization recommendations",neutral
+T-1441,C-434,2025-01-28,Bug,"Thrift RCE vulnerability",negative
+T-1442,C-435,2025-01-29,Feature_Request,"Vulnerability prioritization",positive
+T-1443,C-438,2025-01-30,Performance,"ZeroMQ socket exhaustion",negative
+T-1444,C-436,2025-01-31,Support,"Modernization roadmap",neutral
+T-1445,C-437,2025-02-01,Bug,"Cap'n Proto buffer overflow",negative
+T-1446,C-440,2025-02-02,Feature_Request,"Threat modeling automation",positive
+T-1447,C-439,2025-02-03,Performance,"Redis cluster failover delay",negative
+T-1448,C-441,2025-02-04,Billing,"ROI calculation methodology",neutral
+T-1449,C-442,2025-02-05,Bug,"FlatBuffers memory corruption",negative
+T-1450,C-445,2025-02-06,Support,"Architecture decision records",positive
+T-1451,C-443,2025-02-07,Performance,"Memcached slab allocation",negative
+T-1452,C-444,2025-02-08,Feature_Request,"Purple team exercises",neutral
+T-1453,C-447,2025-02-09,Bug,"Bond serialization flaw",negative
+T-1454,C-448,2025-02-10,Support,"Technical debt assessment",positive
+T-1455,C-449,2025-02-11,Performance,"Hazelcast partition migration",negative
+T-1456,C-452,2025-02-12,Billing,"Multi-year discount analysis",neutral
+T-1457,C-450,2025-02-13,Bug,"CBOR parsing vulnerability",negative
+T-1458,C-451,2025-02-14,Feature_Request,"Red team engagement",positive
+T-1459,C-454,2025-02-15,Performance,"Coherence cluster member expulsion",negative
+T-1460,C-455,2025-02-16,Support,"Migration factory setup",neutral
+T-1461,C-456,2025-02-17,Bug,"BSON injection attack",negative
+T-1462,C-459,2025-02-18,Feature_Request,"Security chaos engineering",positive
+T-1463,C-457,2025-02-19,Performance,"Ignite cache rebalancing",negative
+T-1464,C-458,2025-02-20,Billing,"Commitment utilization tracking",neutral
+T-1465,C-461,2025-02-21,Bug,"YAML deserialization RCE",negative
+T-1466,C-460,2025-02-22,Support,"Agile transformation coaching",positive
+T-1467,C-462,2025-02-23,Performance,"GridGain node segmentation",negative
+T-1468,C-463,2025-02-24,Feature_Request,"Bug bounty program setup",neutral
+T-1469,C-466,2025-02-25,Bug,"TOML parsing exploit",negative
+T-1470,C-464,2025-02-26,Support,"Value stream mapping",positive
+T-1471,C-465,2025-01-10,Performance,"Terracotta quorum loss",negative
+T-1472,C-468,2025-01-11,Billing,"Contract negotiation support",neutral
+T-1473,C-469,2025-01-12,Bug,"INI file injection",negative
+T-1474,C-470,2025-01-13,Feature_Request,"Adversary emulation",positive
+T-1475,C-473,2025-01-14,Performance,"GemFire region overflow",negative
+T-1476,C-471,2025-01-15,Support,"Organizational change management",neutral
+T-1477,C-472,2025-01-16,Bug,"Properties file manipulation",negative
+T-1478,C-475,2025-01-17,Feature_Request,"Assumed breach testing",positive
+T-1479,C-476,2025-01-18,Performance,"Ehcache disk store corruption",negative
+T-1480,C-477,2025-01-19,Billing,"Pricing model comparison",neutral
+T-1481,C-480,2025-01-20,Bug,"Config file path traversal",negative
+T-1482,C-478,2025-01-21,Support,"Digital transformation strategy",positive
+T-1483,C-479,2025-01-22,Performance,"Caffeine cache eviction storm",negative
+T-1484,C-482,2025-01-23,Feature_Request,"Breach attack simulation",neutral
+T-1485,C-481,2025-01-24,Bug,"Environment variable injection",negative
+T-1486,C-483,2025-01-25,Support,"Product management training",positive
+T-1487,C-484,2025-01-26,Performance,"Guava cache memory leak",negative
+T-1488,C-486,2025-01-27,Billing,"License true-up process",neutral
+T-1489,C-485,2025-01-28,Bug,"Registry key manipulation",negative
+T-1490,C-489,2025-01-29,Feature_Request,"Cyber range exercises",positive
+T-1491,C-488,2025-01-30,Performance,"Spring cache annotation issue",negative
+T-1492,C-490,2025-01-31,Support,"Capability building program",neutral
+T-1493,C-491,2025-02-01,Bug,"Shared memory segment exploit",negative
+T-1494,C-494,2025-02-02,Feature_Request,"Tabletop exercises",positive
+T-1495,C-492,2025-02-03,Performance,"Hibernate second-level cache thrashing",negative
+T-1496,C-493,2025-02-04,Billing,"Service credit application",neutral
+T-1497,C-496,2025-02-05,Bug,"IPC message tampering",negative
+T-1498,C-497,2025-02-06,Support,"DevOps maturity assessment",positive
+T-1499,C-498,2025-02-07,Performance,"JPA query cache invalidation",negative
+T-1500,C-500,2025-02-08,Feature_Request,"Crisis management simulation",neutral

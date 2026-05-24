@@ -1,0 +1,72 @@
+╔═══════════════════════════════════════════════════════════════╗
+║      🚀 DEPLOY PROACTIVE CSI AGENT - WEB UI METHOD           ║
+╚═══════════════════════════════════════════════════════════════╝
+
+📋 QUICK STEPS (5 Minutes):
+
+1. IBM Portal is now OPEN in your browser
+   URL: https://cloud.ibm.com/watsonx/orchestrate
+
+2. Find or Create Agent:
+   • Click "All agents" or "Skills" in left sidebar
+   • Find: "ProActive_CSI_Agent_404"
+   • If found: Click it → Click "Edit"
+   • If not found: Click "Create agent" or "Import agent"
+
+3. Upload Configuration File:
+   • Click "Import from file" or "Upload"
+   • Navigate to this folder:
+     /Users/ishwaryasridharan/Desktop/Hackathon_2025/Agentic_AI/agent404-proactive-csi/
+   • Select this file:
+     proactive-csi-agent-orchestrate.yaml
+   • Click "Open" or "Upload"
+
+4. Verify Services (in "Connections" tab):
+   ✅ Speech-to-Text (STT)
+   ✅ Text-to-Speech (TTS)
+   ✅ Natural Language Understanding (NLU)
+
+5. Save & Activate:
+   • Click "Save" button
+   • Click "Activate" or "Publish" button
+   • Wait for activation (10-30 seconds)
+
+6. Test:
+   • Click on agent to open chat
+   • Type: "Read me the executive briefing aloud using Text-to-Speech"
+
+╔═══════════════════════════════════════════════════════════════╗
+║                    CONFIGURATION FILE                         ║
+╚═══════════════════════════════════════════════════════════════╝
+
+File: proactive-csi-agent-orchestrate.yaml
+Location: /Users/ishwaryasridharan/Desktop/Hackathon_2025/Agentic_AI/agent404-proactive-csi/
+Version: 1.2.0 (with STT & TTS integration)
+Size: 19KB
+Status: ✅ Ready to upload
+
+╔═══════════════════════════════════════════════════════════════╗
+║                    TEST QUERIES                               ║
+╚═══════════════════════════════════════════════════════════════╝
+
+After deployment, test with:
+
+1. TTS Test:
+   "Read me the executive briefing aloud using Text-to-Speech"
+
+2. STT Test:
+   "I'm driving, what's my priority today? Process via voice command."
+
+3. Combined:
+   "Using voice commands, give me a voice briefing on vendor delays"
+
+╔═══════════════════════════════════════════════════════════════╗
+║                    QUICK ACCESS                               ║
+╚═══════════════════════════════════════════════════════════════╝
+
+IBM Portal: https://cloud.ibm.com/watsonx/orchestrate
+Direct URL: https://au-syd.watson-orchestrate.cloud.ibm.com/build/manage
+Config File: /Users/ishwaryasridharan/Desktop/Hackathon_2025/Agentic_AI/agent404-proactive-csi/proactive-csi-agent-orchestrate.yaml
+
+✅ Browser should be open now - follow steps above!
+

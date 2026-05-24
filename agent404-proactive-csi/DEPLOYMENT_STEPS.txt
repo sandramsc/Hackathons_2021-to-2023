@@ -1,0 +1,93 @@
+🚀 DEPLOYMENT STEPS - FOLLOW THESE EXACTLY
+==========================================
+
+📍 CURRENT FILE LOCATION:
+/Users/ishwaryasridharan/Desktop/Hackathon_2025/Agentic_AI/agent404-proactive-csi/proactive-csi-agent-orchestrate.yaml
+
+🌐 IBM PORTAL URL:
+https://au-syd.watson-orchestrate.cloud.ibm.com/build/manage
+
+📋 STEP-BY-STEP INSTRUCTIONS:
+==========================================
+
+STEP 1: OPEN IBM PORTAL (30 seconds)
+-------------------------------------
+1. Browser should open automatically
+2. OR manually open: https://au-syd.watson-orchestrate.cloud.ibm.com/build/manage
+3. Login with IBM Cloud credentials
+4. Wait for dashboard to load
+
+STEP 2: FIND YOUR AGENT (30 seconds)
+-------------------------------------
+1. Click "All agents" or "Skills" in left sidebar
+2. Look for "ProActive_CSI_Agent_404"
+3. Click on it
+
+STEP 3: EDIT AGENT (1 minute)
+-------------------------------
+1. Click "Edit" button (usually top right)
+2. OR click three dots (...) menu → "Edit"
+
+STEP 4: UPLOAD CONFIGURATION (1 minute)
+----------------------------------------
+1. Click "Import from file" or "Upload" button
+2. Navigate to this folder:
+   /Users/ishwaryasridharan/Desktop/Hackathon_2025/Agentic_AI/agent404-proactive-csi/
+3. Select file: proactive-csi-agent-orchestrate.yaml
+4. Click "Open" or "Upload"
+5. Wait for file to upload (5-10 seconds)
+
+STEP 5: VERIFY UPLOAD (30 seconds)
+-----------------------------------
+1. Check agent name shows: "ProActive_CSI_Agent_404"
+2. Verify configuration loaded successfully
+3. Check for any error messages
+
+STEP 6: VERIFY SERVICES (1 minute)
+-----------------------------------
+1. Go to "Connections" or "Integrations" tab
+2. Verify these services are connected (should show green/active):
+
+   ✅ Speech-to-Text (STT)
+     - API Key: qzNRq16Io8Dap9VR57CMw5jvbH3LUIWEQTEv20hJ-tc1
+   
+   ✅ Text-to-Speech (TTS)
+     - API Key: FLukjnaT1rf9qFnAhVbpi5D7HPMrvUst9POK8A-JShpz
+   
+   ✅ Natural Language Understanding (NLU)
+     - API Key: JD1cdPcLQdymkID4sHav18lDXLd7U1FrTKDB2yllVLar
+
+3. If NOT connected, click "Add Connection" and add them
+
+STEP 7: SAVE & ACTIVATE (30 seconds)
+-------------------------------------
+1. Click "Save" button
+2. Wait for save confirmation
+3. Click "Activate" or "Publish" button
+4. Wait for activation (10-30 seconds)
+
+STEP 8: TEST STT/TTS (1 minute)
+--------------------------------
+1. Click on your agent to open chat interface
+2. Type this query:
+   "Read me the executive briefing aloud using Text-to-Speech"
+3. Look for response mentioning:
+   - "IBM Text-to-Speech"
+   - "POST /v1/synthesize"
+   - "en-US_MichaelV3Voice"
+
+✅ SUCCESS INDICATORS:
+- Agent shows "Active" status
+- All services connected (green)
+- Test queries work correctly
+- Agent mentions STT/TTS in responses
+
+❌ IF ERRORS:
+- Check configuration file is valid YAML
+- Verify services are connected
+- Check API keys are correct
+- Try refreshing page
+
+==========================================
+READY TO DEPLOY! 🚀
+

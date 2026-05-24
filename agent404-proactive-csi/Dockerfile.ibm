@@ -1,0 +1,36 @@
+# Dockerfile for IBM watsonx Orchestrate Deployment
+# Deploys ProActive CSI Agent 404 to IBM Cloud
+
+FROM python:3.11-slim
+
+# Set working directory
+WORKDIR /app
+
+# Set environment variables
+ENV PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    PIP_NO_CACHE_DIR=1 \
+    PIP_DISABLE_PIP_VERSION_CHECK=1
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    curl \
+    git \
+    bash \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install IBM watsonx Orchestrate CLI
+RUN pip install --no-cache-dir ibm-watsonx-orchestrate
+
+# Copy project files
+COPY . .
+
+# Install Python dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Set permissions
+RUN chmod +x scripts/deployment/*.sh scripts/docker/*.sh 2>/dev/null || true
+
+# Default command - deploy to IBM
+CMD ["bash", "scripts/docker/deploy_to_ibm.sh"]
+

@@ -1,0 +1,30 @@
+# Docker Compose for IBM Deployment
+# Note: 'version' is obsolete in newer docker-compose, but kept for compatibility
+
+services:
+  deploy-to-ibm:
+    build:
+      context: .
+      dockerfile: Dockerfile.ibm
+    container_name: proactive-csi-ibm-deploy
+    image: proactive-csi-ibm-deploy:latest
+    environment:
+      # IBM watsonx Orchestrate credentials (can be passed via env or mounted file)
+      - WATSONX_ORCHESTRATE_APIKEY=${WATSONX_ORCHESTRATE_APIKEY:-9-atsNvf8mx0ymZLaGgZwe28rhyZvLcX_QUQlyDb12rg}
+      - WATSONX_ORCHESTRATE_URL=${WATSONX_ORCHESTRATE_URL:-https://api.au-syd.watson-orchestrate.cloud.ibm.com/instances/f16c2181-a811-4d84-8e15-33cfebe50928}
+    volumes:
+      # Mount agent configuration
+      - ./proactive-csi-agent-orchestrate.yaml:/app/proactive-csi-agent-orchestrate.yaml:ro
+      # Mount credentials (optional - can use env vars instead)
+      - ./ibm-credentials_Orchestrate_data_Updated.json:/app/ibm-credentials_Orchestrate_data_Updated.json:ro
+      # Mount project files if needed
+      - .:/app:ro
+    networks:
+      - deploy-network
+    # Remove container after deployment
+    restart: "no"
+
+networks:
+  deploy-network:
+    driver: bridge
+

@@ -1,0 +1,47 @@
+version: '3.8'
+
+services:
+  proactive-csi-agent:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: proactive-csi-agent-404
+    image: proactive-csi-agent-404:latest
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env.docker
+    environment:
+      # Streamlit configuration
+      - STREAMLIT_SERVER_PORT=8501
+      - STREAMLIT_SERVER_ADDRESS=0.0.0.0
+      - STREAMLIT_SERVER_HEADLESS=true
+      # Python environment
+      - PYTHONUNBUFFERED=1
+    volumes:
+      # Mount data directory (read-only for data files)
+      - ./data:/app/data:ro
+      # Mount logs directory (write)
+      - ./logs:/app/logs
+      # Mount output directory (write)
+      - ./output:/app/output
+      # Mount credentials (optional - or use secrets)
+      - ./ibm-credentials_Cloudant_data.json:/app/ibm-credentials_Cloudant_data.json:ro
+      - ./ibm-credentials_NLU.env:/app/ibm-credentials_NLU.env:ro
+      - ./ibm-credentials_STT.env:/app/ibm-credentials_STT.env:ro
+      - ./ibm-credentials_TTS.env:/app/ibm-credentials_TTS.env:ro
+      - ./ibm-credentials_Orchestrate_data_Updated.json:/app/ibm-credentials_Orchestrate_data_Updated.json:ro
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    networks:
+      - proactive-csi-network
+
+networks:
+  proactive-csi-network:
+    driver: bridge
+
